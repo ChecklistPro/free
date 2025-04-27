@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-08-31 12:14:40">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Department Member Audit - Update Set v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>84bc80b61bb8355067e82f40604bcb66</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>9729a8341bc97950f54b5201604bcbf1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_extension_instance_7270147a1bb8355067e82f40604bcb15</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_instance"><sys_extension_instance action="INSERT_OR_UPDATE"><active>true</active><order>100</order><point>x_tygr_check.ExtensionRunner</point><script_include display_value="ExtensionRunner">3270147a1bb8355067e82f40604bcb12</script_include><sys_class_name>sys_extension_instance</sys_class_name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-08-25 05:18:55</sys_created_on><sys_id>7270147a1bb8355067e82f40604bcb15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_tygr_check.ExtensionRunner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_extension_instance_7270147a1bb8355067e82f40604bcb15</sys_update_name><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-08-25 05:18:55</sys_updated_on></sys_extension_instance></record_update>]]></payload>
+<payload_hash>-1654338895</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>1329a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b2194f20000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>x_tygr_check.ExtensionRunner</target_name>
+<type>Extension Instance</type>
+<update_domain>global</update_domain>
+<update_guid>cf70147a22b83550facdbfc081534716</update_guid>
+<update_guid_history>cf70147a22b83550facdbfc081534716:-1654338895</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_2afbbf421bd3a51067e82f40604bcb5a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>Manager Employee Audit</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:58:11</sys_created_on><sys_id>2afbbf421bd3a51067e82f40604bcb5a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 01:42:08</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>761021625</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>1b29a8341bc97950f54b5201604bcbf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b2c14af0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>Manager Employee Audit</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>0b13d4fa1ab83550d9b7478d90c378c1</update_guid>
+<update_guid_history>0b13d4fa1ab83550d9b7478d90c378c1:761021625,398f00d26617a510c866edc4c1d4ba6c:761021625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_hide_readonly_eae4187e1bb8355067e82f40604bcb94</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_hide_readonly"><x_tygr_check_hide_readonly action="INSERT_OR_UPDATE"><action>Hide</action><checklist display_value="Department Member Audit">2c52d4ba1bb8355067e82f40604bcb55</checklist><description/><function/><function_record/><function_table>sys_user_group</function_table><hidereadonly table="x_tygr_check_record">sys_idISNOTEMPTY^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></hidereadonly><hidereadonly_extension>false</hidereadonly_extension><parameter/><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-08-25 05:38:58</sys_created_on><sys_id>eae4187e1bb8355067e82f40604bcb94</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-08-25 05:38:58</sys_updated_on><table>x_tygr_check_record</table><template display_value="Department">8e54983e1bb8355067e82f40604bcbfc</template></x_tygr_check_hide_readonly></record_update>]]></payload>
+<payload_hash>-993815629</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>1f29a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b3408e00000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>8e54983e1bb8355067e82f40604bcbfc</target_name>
+<type>CLP Hide Readonly</type>
+<update_domain>global</update_domain>
+<update_guid>9215d47eb2b83550902834391bcddace</update_guid>
+<update_guid_history>9215d47eb2b83550902834391bcddace:-993815629</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_aa2c77821bd3a51067e82f40604bcb60</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Manager Employee Audit">2afbbf421bd3a51067e82f40604bcb5a</config><help/><hover>Select a new person to be added to the group</hover><item>New Person</item><name>New Person</name><order>1000</order><parent/><reference_field>name</reference_field><reference_fields/><reference_filter table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_filter><reference_search>name</reference_search><reference_table>sys_user</reference_table><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:59:53</sys_created_on><sys_id>aa2c77821bd3a51067e82f40604bcb60</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 01:00:38</sys_updated_on><type>Reference</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>369812659</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>5729a8341bc97950f54b5201604bcbf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b2c5f3d0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>New Person</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>ef239cfa47b83550408fe620c5349ddc</update_guid>
+<update_guid_history>ef239cfa47b83550408fe620c5349ddc:369812659,5f9f44d29c17a510f05eebe93a91bf1d:369812659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_08efc83a1bb8355067e82f40604bcbfe</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;name&gt;CLP Department Member Audit&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="ty roach"&gt;e86572d5db02320026e7dc50cf961924&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2023-05-27 01:20:33&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 06:00:00&lt;/run_time&gt;&lt;run_type&gt;monthly&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    var checklist = new GlideRecord('x_tygr_check_config');
+    // Find the "Department Member Audit" Checklist
+    if (checklist.get('name', 'Department Member Audit') &amp;&amp; checklist.isValidRecord()) {
+        var clp_rec, sys_id;
+        var count = 0;
+        // Get all the active users that have a group manager
+        var dept = new GlideRecord('cmn_department');
+        dept.addEncodedQuery('dept_headISNOTEMPTY');
+        dept.query();
+        while (dept.next()) {
+            // For each active user managing other users, create a Checklist Record
+            // Assign it to that manager (for their review)
+            count++;
+            clp_rec = new GlideRecord('x_tygr_check_record');
+            clp_rec.type = 'Approval';
+            clp_rec.approval = true;
+            clp_rec.use_delegate = true;
+            clp_rec.short_description = 'Department Member Audit: ' +
+                dept.getDisplayValue();
+            clp_rec.assigned_to = dept.dept_head;
+            clp_rec.parent_table = 'x_tygr_check_record';
+            clp_rec.parent = clp_rec.getUniqueValue();
+            clp_rec.state = 'Requested';
+            clp_rec.checklist = checklist.sys_id;
+            sys_id = clp_rec.insert();
+            clp_rec.initialize();
+            if (clp_rec.get(sys_id)) {
+                createEmployees(dept, clp_rec, checklist);
+            }
+        }
+        gs.info('CLP Department Member Audit (Scheduled Job). Created ' + count +
+            ' Checklist Records to process department members');
+
+    } else {
+        gs.warn('CLP Department Member Audit (Scheduled Job). Could not find checklist "Department Member Audit".');
+    }
+})();
+
+function createEmployees(dept, rec, config) {
+    var temp = new GlideRecord('x_tygr_check_template');
+    temp.addEncodedQuery('item=Person^config.name=Manager Employee Audit');
+    temp.query();
+    if (temp.next()) {
+        var clp_util = new x_tygr_check.CLP();
+        var item, order = 1;
+        var user = new GlideRecord('sys_user');
+        user.addEncodedQuery('active=true^department=' + dept.sys_id+'^ORDERBYname');
+        user.query();
+        while (user.next()) {
+            // for each member in the group, create a checklist item.
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = user.getDisplayValue();
+            item.complete = true;
+            item.order = order++;
+            item.string = item.name + '';
+            item.response = item.name + '';
+            item.insert();
+        }
+
+        // Create the "New Person" item (for New Member selection)
+        temp.initialize();
+        temp.addEncodedQuery('item=New Person^config.name=Manager Employee Audit');
+        temp.query();
+        if (temp.next()) {
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = temp.name + '';
+            item.complete = false;
+            item.order = 1000;
+            item.insert();
+        } else {
+            gs.info('CLPDepartmentMemberAudit().clpCreate() could not find the "New Person" template record.');
+        }
+
+        // create Department
+        temp = new GlideRecord('x_tygr_check_template');
+        temp.addEncodedQuery('item=Department^config.name=Department Member Audit');
+        temp.query();
+        if (temp.next()) {
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = temp.name + '';
+			item.reference = dept.sys_id;
+			item.response = dept.getDisplayValue();
+			item.string = dept.getDisplayValue();
+            item.complete = true;
+            item.order = 2000;
+            item.insert();
+        } else {
+            gs.info('CLP.DepartmentMemberAudit: not "Department" template record found');
+        }
+    } else {
+        gs.info('CLP.DepartmentMemberAudit: not "Person" template record found');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-25 05:16:16&lt;/sys_created_on&gt;&lt;sys_id&gt;08efc83a1bb8355067e82f40604bcbfe&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLP Department Member Audit&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_08efc83a1bb8355067e82f40604bcbfe&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-31 01:11:18&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>6777842</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>5b29a8341bc97950f54b5201604bcbf1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a492518830000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>CLP Department Member Audit</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>87515a2cd9c1795070d14549842b6f1e</update_guid>
+<update_guid_history>87515a2cd9c1795070d14549842b6f1e:6777842,7cacd83639f835509ab243eda58d610d:-502251213,19eb1cf299f835504e089c039433f69b:-306073743,364794fe49b835505cdd09381ead1159:-1416643395,78b6987eb2b83550680ee62a322db4ec:1844126803,4eef88b6bbb835502eb5e54423205805:-431632955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_config_2c52d4ba1bb8355067e82f40604bcb55</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_tygr_check_config"&gt;&lt;x_tygr_check_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attachment_name/&gt;&lt;attachment_required&gt;false&lt;/attachment_required&gt;&lt;button_condition/&gt;&lt;button_extension&gt;true&lt;/button_extension&gt;&lt;button_info&gt;Make the selected employee's department be this department&lt;/button_info&gt;&lt;button_instructions&gt;&lt;![CDATA[&lt;hr /&gt;]]&gt;&lt;/button_instructions&gt;&lt;button_label&gt;Add Employee&lt;/button_label&gt;&lt;button_style/&gt;&lt;button_wf_event/&gt;&lt;catalog_item/&gt;&lt;close/&gt;&lt;close_check&gt;true&lt;/close_check&gt;&lt;closed_extension&gt;true&lt;/closed_extension&gt;&lt;create table="x_tygr_check_record"&gt;sys_idISEMPTY^EQ&lt;item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/create&gt;&lt;create_extension&gt;false&lt;/create_extension&gt;&lt;custom_css/&gt;&lt;debug&gt;false&lt;/debug&gt;&lt;edit table="x_tygr_check_record"&gt;assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=Requested^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Requested"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/edit&gt;&lt;edit_extension&gt;false&lt;/edit_extension&gt;&lt;enforce&gt;false&lt;/enforce&gt;&lt;enforce_notification&gt;false&lt;/enforce_notification&gt;&lt;extension_script_name&gt;CLPDepartmentMemberAudit&lt;/extension_script_name&gt;&lt;hover_fields/&gt;&lt;information&gt;&lt;![CDATA[&lt;p&gt;Review the list of employees assigned to this department. If any of these employees should not be in this department, uncheck the checkbox next to their name. If other employees should be in this department, select the &amp;#34;&lt;em&gt;New Person&lt;/em&gt;&amp;#34; and click the &lt;em&gt;&lt;strong&gt;Add Employee &lt;/strong&gt;&lt;/em&gt;button below. Once your review is complete, click the &amp;#34;&lt;em&gt;Approve&lt;/em&gt;&amp;#34; button.&lt;/p&gt;
+&lt;p&gt;&amp;#34;Approving&amp;#34; will update the user record&amp;#39;s manager accordingly (&lt;em&gt;i.e., if selected, this manager becomes the manager of that employee, if unselected, the user will not have a manager&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;#34;Rejecting&amp;#34; will leave the user&amp;#39;s manager field unchanged.&lt;/p&gt;]]&gt;&lt;/information&gt;&lt;name&gt;Department Member Audit&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;portal_extension&gt;false&lt;/portal_extension&gt;&lt;portal_summary/&gt;&lt;sc_ref_checklist/&gt;&lt;sc_ref_checklist_query/&gt;&lt;shared_checklist/&gt;&lt;shared_extension&gt;false&lt;/shared_extension&gt;&lt;shared_record/&gt;&lt;shared_table/&gt;&lt;show_button&gt;true&lt;/show_button&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-25 05:26:57&lt;/sys_created_on&gt;&lt;sys_id&gt;2c52d4ba1bb8355067e82f40604bcb55&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-25 05:27:54&lt;/sys_updated_on&gt;&lt;table&gt;x_tygr_check_record&lt;/table&gt;&lt;template display_value="Department Member Audit"&gt;cc72d87a1bb8355067e82f40604bcb20&lt;/template&gt;&lt;type&gt;Standard&lt;/type&gt;&lt;/x_tygr_check_config&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1000228049</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>5b29a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b29dc360000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>Department Member Audit</target_name>
+<type>Checklist Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>578254fa72b835504cb8993373981500</update_guid>
+<update_guid_history>578254fa72b835504cb8993373981500:-1000228049</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_991c37821bd3a51067e82f40604bcbd1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Manager Employee Audit">2afbbf421bd3a51067e82f40604bcb5a</config><help/><hover/><item>Person</item><name>Person</name><order>10</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:58:57</sys_created_on><sys_id>991c37821bd3a51067e82f40604bcbd1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 00:58:57</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>382954281</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>9329a8341bc97950f54b5201604bcbf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b2c37f20000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>Person</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>892318fae0b83550505e5069f5b99d00</update_guid>
+<update_guid_history>892318fae0b83550505e5069f5b99d00:382954281,179f44d20f17a510e6c5da396145861c:382954281</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_associated_config_b2c4d07e1bb8355067e82f40604bcb68</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_associated_config"><x_tygr_check_associated_config action="INSERT_OR_UPDATE"><checklist display_value="Department Member Audit">2c52d4ba1bb8355067e82f40604bcb55</checklist><order>10</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-08-25 05:37:53</sys_created_on><sys_id>b2c4d07e1bb8355067e82f40604bcb68</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-08-25 05:37:53</sys_updated_on><template_configuration display_value="Department Member Audit">71449c3e1bb8355067e82f40604bcb5d</template_configuration></x_tygr_check_associated_config></record_update>]]></payload>
+<payload_hash>-1551922878</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>9729a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b32fc230000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>b2c4d07e1bb8355067e82f40604bcb68</target_name>
+<type>CLP Associated Config</type>
+<update_domain>global</update_domain>
+<update_guid>d1d4547e27b83550e79879862104b672</update_guid>
+<update_guid_history>d1d4547e27b83550e79879862104b672:-1551922878</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_3270147a1bb8355067e82f40604bcb12</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CLPDepartmentMemberAudit&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Implements extension point x_tygr_check.ExtensionRunner
+Checklist Pro extension points for create/edit/close  condition which customers may invoke their scripts for determining when a Checklist should be created, is editable and/or is associated with a record that is considered closed.&lt;/description&gt;&lt;name&gt;CLPDepartmentMemberAudit&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CLPDepartmentMemberAudit = Class.create();
+CLPDepartmentMemberAudit.prototype = {
+    initialize: function() {},
+
+    clpCreate: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a checklist should be created for &lt;rec&gt;, otherwise return false
+    },
+
+    clpEdit: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the checklist for &lt;rec&gt; should be editable, otherwise return false
+    },
+
+    clpClosed: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the &lt;rec&gt; is to be considered "closed", 
+        // otherwise return false indicating &lt;rec&gt; is NOT "closed"
+        var result = false;
+        if (config.active == true &amp;&amp; config.name == "Department Member Audit" &amp;&amp; rec.state != 'Requested' &amp;&amp;
+            rec.approval == true &amp;&amp; global.JSUtil.notNil(rec.assigned_to) &amp;&amp;
+            (rec.short_description + '').indexOf('Department Member Audit:') == 0) {
+            if (rec.state == 'Rejected') {
+                gs.info('CLPDepartmentMemberAudit(). state=Rejected: ' + rec.assigned_to.getDisplayValue());
+                return result;
+            }
+
+
+            result = true;
+            var user_arr = [];
+            var user = new GlideRecord('sys_user');
+            var rc = new x_tygr_check.CLP().getValue(rec.sys_id.toString(), 'Department');
+            if (JSUtil.notNil(rc.value)) {
+                user.addEncodedQuery('active=true^department=' + rc.value);
+            } else {
+                gs.warn('CLPDepartmentMemberAudit() error: could not get Department in the Checklist');
+                user.addEncodedQuery('sys_idISEMPTY');
+            }
+            user.query();
+            // get the current members of this department
+            while (user.next()) {
+                user_arr.push(user.sys_id.toString());
+            }
+            var user_list = user_arr.join(',');
+
+            // get the members of the department according to the checklist
+            var new_arr = [];
+            var item = new GlideRecord('x_tygr_check_item');
+            item.addEncodedQuery('template.type=Checkbox^complete=true^document=' + rec.sys_id);
+            item.query();
+            while (item.next()) {
+                user.initialize();
+                if (user.get('name', item.name)) {
+                    new_arr.push(user.sys_id.toString());
+                }
+            }
+
+            // add users not found in the checklist as members of this department
+            for (var i = 0; i &lt; new_arr.length; i++) {
+                // if a user is not already in the list, add them
+                if (user_list.indexOf(new_arr[i]) == -1) {
+                    user.initialize();
+                    if (user.get(new_arr[i])) {
+                        user.department = rc.value;
+                        user.update();
+                    }
+                }
+            }
+
+            // remove users not found in the checklist from the department
+            var new_list = new_arr.join(',');
+            for (i = 0; i &lt; user_arr.length; i++) {
+                // if a user from the original list is not in the new one, remove it.
+                if (new_arr.length == 0 || new_list.indexOf(user_arr[i] + '') == -1) {
+                    user.initialize();
+                    if (user.get(user_arr[i])) {
+                        user.department = 'NULL';
+                        user.update();
+                    }
+                }
+            }
+        }
+
+        return result;
+    },
+
+    clpShared: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // For clpShared, this "config" parameter will be the checklist where "Type='References Shared Checklist'".
+        // As an example, suppose we've declared a shared checklist for the SC_TASK table and the shared checklist
+        // table references the SC_REQ_ITEM table.  There will be a checklist configuration 
+        // (with template values) for the SC_REQ_ITEM table, but "rec" will be the SC_TASK record and 
+        // "config" will be the checklist configuration for the SC_TASK record, and it will refer to the
+        // SC_REQ_ITEM checklist via "config.shared_checklist"
+        // 
+        // This way the extension point builder knows what we refer to as the "source" record (i.e. the SC_TASK)
+        // record and it's CLP configuration record and can also get to the actual shared checklist configuration
+        // (which will have the template to be used)
+        //
+        // ---Important----
+        // Following the above example, this extension point function should return the sys_id of the 
+        // SC_REQ_ITEM record that is to be related to the specified "rec" SC_TASK record.
+        //
+        // return '' if no shared record can be found.
+
+    },
+
+    clpPortalSummary: function( /* x_tygr_check configuration record */ config) {
+        // return an array of sys_ids of the records from the Checklist Pro Configuration table that are to 
+        // be considered for displaying in the Checklist Pro Summary widget.  
+        // These sys_ids should be returned as an array from this function and they will be shown in the 
+        // clp widget and the Checklist Pro Summary widget will select data from the
+        // Checklist Item (x_tygr_check_item) table that reference the sys_ids in this array.
+        var arr = [];
+        var gr = new GlideRecord(config.table);
+        // Add custom logic here...
+
+        return arr;
+    },
+
+    clpShowButton: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a button (for customizable processing) should appear at the end of the checklist,
+        // otherwise return false
+        return (gs.getUserID() == rec.assigned_to &amp;&amp; rec.state == 'Requested');
+    },
+
+    clpButtonClicked: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // if the Checklist Pro button is exists and is clicked, this customizable callback will be invoked
+        // The function should return an CLP response object structured as follows:
+        // {
+        //    code:    &lt;integer&gt;,
+        //    message: &lt;string&gt;
+        // }
+        // where Checklist Pro will handle code values as follows:
+        // 0: do nothing
+        // 1: trigger a reload and re-evaluation of the checklist against the record
+        // 2: trigger a reload and re-evaluation of the checklist against the record and...
+        //    popup and alert with the contents of the message attribute in the response displayed in the alert
+        // all other numbers for release v1.4 shall be treated as code value of 0
+        var clpResponse = {
+            code: 0,
+            message: ""
+        };
+
+        // Add custom logic here...
+        var item = new GlideRecord('x_tygr_check_item');
+        // get the New Name value.
+        var user = new GlideRecord('sys_user');
+        var new_person = new x_tygr_check.CLP().getValue(rec.sys_id.toString(), 'New Person');
+        if (new_person.status == 'found' &amp;&amp; user.get(new_person.value + '')) {
+            item.addEncodedQuery('order&lt;1000^template.type=Checkbox^document=' + rec.sys_id + '^ORDEBBYDESCorder');
+            item.setLimit(1);
+            item.query();
+            if (item.next()) {
+                item.order += 1;
+                item.name = user.getDisplayValue();
+                item.complete = true;
+                item.insert();
+
+                clpResponse.code = 2;
+                clpResponse.message = item.name + ' added to the list of employees.';
+            } else {
+                var temp = new GlideRecord('x_tygr_check_template');
+                temp.addEncodedQuery('item=Person^config.name=' + config.name);
+                temp.query();
+                if (temp.next()) {
+                    item = new GlideRecord('x_tygr_check_item');
+                    item.document = rec.sys_id;
+                    item.checklist = config.sys_id;
+                    item.template = temp.sys_id;
+                    item.order = 1;
+                    item.name = user.getDisplayValue();
+                    item.complete = true;
+                    item.insert();
+
+                    clpResponse.code = 2;
+                    clpResponse.message = item.name + ' added to the employees in this department.';
+                } else {
+                    clpResonse.code = 2;
+                    clpResponse.message = 'Contact Checklist Pro Admin. Department Member Audit template config missing "Person"';
+                }
+            }
+        } else {
+            clpResponse.code = 2;
+            clpResponse.message = 'Select a person to add in the "New Person" item, then click the "Add Person" button';
+        }
+
+        return clpResponse;
+    },
+
+    type: 'CLPDepartmentMemberAudit'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-25 05:18:55&lt;/sys_created_on&gt;&lt;sys_id&gt;3270147a1bb8355067e82f40604bcb12&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLPDepartmentMemberAudit&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_3270147a1bb8355067e82f40604bcb12&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-25 06:15:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>404296016</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>d329a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b55891b0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>CLPDepartmentMemberAudit</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>967d1876faf8355047690b91446a308b</update_guid>
+<update_guid_history>967d1876faf8355047690b91446a308b:404296016,915d187682f83550d3cd91c6ea6063bc:-848627171,481ad87236f83550c5255e1924e86de3:-1218534784,d97910fefdb83550bf97615dbda47099:-268129915,66711c7a5db8355011de185fd136ae62:-773702134,9b80587a90b835508c19d9ab0b7bb669:-1877602866,b270147a39b835504dde512f29de6414:-772616662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_71449c3e1bb8355067e82f40604bcb5d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>Department Member Audit</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-08-25 05:35:41</sys_created_on><sys_id>71449c3e1bb8355067e82f40604bcb5d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-08-25 05:35:41</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>-632533472</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>db29a8341bc97950f54b5201604bcbf3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b31d3320000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>Department Member Audit</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>fa845c3e3ab8355040e7a186a64aed40</update_guid>
+<update_guid_history>fa845c3e3ab8355040e7a186a64aed40:-632533472</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_8e54983e1bb8355067e82f40604bcbfc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Department Member Audit">71449c3e1bb8355067e82f40604bcb5d</config><help/><hover/><item>Department</item><name>Department</name><order>10</order><parent/><reference_field>name</reference_field><reference_fields/><reference_filter/><reference_search>name</reference_search><reference_table>cmn_department</reference_table><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-08-25 05:36:35</sys_created_on><sys_id>8e54983e1bb8355067e82f40604bcbfc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-08-25 05:36:35</sys_updated_on><type>Reference</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1493486176</payload_hash>
+<remote_update_set display_value="Department Member Audit - Update Set v1.0">9729a8341bc97950f54b5201604bcbf1</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-08-31 12:14:39</sys_created_on>
+<sys_id>df29a8341bc97950f54b5201604bcbf2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18a2b31fd180000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-08-31 12:14:39</sys_updated_on>
+<table/>
+<target_name>Department</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>e194d83e39b83550af9e23047817ac21</update_guid>
+<update_guid_history>e194d83e39b83550af9e23047817ac21:-1493486176</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

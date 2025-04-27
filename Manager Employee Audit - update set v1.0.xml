@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-06-10 19:00:55">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Manager Employee Audit - update set v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b5f6ff4e1b93a51067e82f40604bcb12</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:54</sys_created_on>
+<sys_id>eac3f39a1bdfa51067e82f40604bcb7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:54</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_aa2c77821bd3a51067e82f40604bcb60</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Manager Employee Audit">2afbbf421bd3a51067e82f40604bcb5a</config><help/><hover>Select a new person to be added to the group</hover><item>New Person</item><name>New Person</name><order>1000</order><parent/><reference_field>name</reference_field><reference_fields/><reference_filter table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></reference_filter><reference_search>name</reference_search><reference_table>sys_user</reference_table><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:59:53</sys_created_on><sys_id>aa2c77821bd3a51067e82f40604bcb60</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 01:00:38</sys_updated_on><type>Reference</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>369812659</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>26c3f39a1bdfa51067e82f40604bcb7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a31e1bfb0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table/>
+<target_name>New Person</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>5f9f44d29c17a510f05eebe93a91bf1d</update_guid>
+<update_guid_history>5f9f44d29c17a510f05eebe93a91bf1d:369812659</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_6279f3ce1b93a51067e82f40604bcb78</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CLPManageEmployeeAudit&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Implements extension point x_tygr_check.ExtensionRunner
+Checklist Pro extension points for create/edit/close  condition which customers may invoke their scripts for determining when a Checklist should be created, is editable and/or is associated with a record that is considered closed.&lt;/description&gt;&lt;name&gt;CLPManageEmployeeAudit&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CLPManageEmployeeAudit = Class.create();
+CLPManageEmployeeAudit.prototype = {
+    initialize: function() {},
+
+    clpCreate: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a checklist should be created for &lt;rec&gt;, otherwise return false
+    },
+
+    clpEdit: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the checklist for &lt;rec&gt; should be editable, otherwise return false
+    },
+
+    clpClosed: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the &lt;rec&gt; is to be considered "closed", 
+        // otherwise return false indicating &lt;rec&gt; is NOT "closed"
+        var result = false;
+        if (config.active == true &amp;&amp; config.name == "Manager Employee Audit" &amp;&amp; rec.state != 'Requested' &amp;&amp;
+            rec.approval == true &amp;&amp; global.JSUtil.notNil(rec.assigned_to) &amp;&amp;
+            (rec.short_description + '').indexOf('Manager Employee Audit:') == 0) {
+            if (rec.state == 'Rejected') {
+                gs.info('CLPManageEmployeeAudit(). state=Rejected: ' + rec.assigned_to.getDisplayValue());
+                return result;
+            }
+
+            result = true;
+            var user_arr = [];
+            var user = new GlideRecord('sys_user');
+            user.addEncodedQuery('active=true^manager=' + rec.assigned_to);
+            user.query();
+            // get the current members of the group
+            while (user.next()) {
+                user_arr.push(user.sys_id.toString());
+            }
+            var user_list = user_arr.join(',');
+
+            // get the members of the group according to the checklist
+            var new_arr = [];
+            var item = new GlideRecord('x_tygr_check_item');
+            item.addEncodedQuery('template.type=Checkbox^complete=true^document=' + rec.sys_id);
+            item.query();
+            while (item.next()) {
+                user.initialize();
+                if (user.get('name', item.name)) {
+                    new_arr.push(user.sys_id.toString());
+                }
+            }
+
+            // add users not found in the checklist as employees for this manager
+            for (var i = 0; i &lt; new_arr.length; i++) {
+                // if a user is not already in the list, add them
+                if (user_list.indexOf(new_arr[i]) == -1) {
+                    user.initialize();
+                    if (user.get(new_arr[i])) {
+                        user.manager = rec.assigned_to;
+                        user.update();
+                    }
+                }
+            }
+
+            // remove users not found in the checklist from list of people managed
+            var new_list = new_arr.join(',');
+            for (i = 0; i &lt; user_arr.length; i++) {
+                // if a user from the original list is not in the new one, remove it.
+                if (new_arr.length == 0 || new_list.indexOf(user_arr[i] + '') == -1) {
+                    user.initialize();
+                    if (user.get(user_arr[i])) {
+                        user.manager = 'NULL';
+                        user.update();
+                    }
+                }
+            }
+        }
+
+        return result;
+    },
+
+    clpShared: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // For clpShared, this "config" parameter will be the checklist where "Type='References Shared Checklist'".
+        // As an example, suppose we've declared a shared checklist for the SC_TASK table and the shared checklist
+        // table references the SC_REQ_ITEM table.  There will be a checklist configuration 
+        // (with template values) for the SC_REQ_ITEM table, but "rec" will be the SC_TASK record and 
+        // "config" will be the checklist configuration for the SC_TASK record, and it will refer to the
+        // SC_REQ_ITEM checklist via "config.shared_checklist"
+        // 
+        // This way the extension point builder knows what we refer to as the "source" record (i.e. the SC_TASK)
+        // record and it's CLP configuration record and can also get to the actual shared checklist configuration
+        // (which will have the template to be used)
+        //
+        // ---Important----
+        // Following the above example, this extension point function should return the sys_id of the 
+        // SC_REQ_ITEM record that is to be related to the specified "rec" SC_TASK record.
+        //
+        // return '' if no shared record can be found.
+
+    },
+
+    clpPortalSummary: function( /* x_tygr_check configuration record */ config) {
+        // return an array of sys_ids of the records from the Checklist Pro Configuration table that are to 
+        // be considered for displaying in the Checklist Pro Summary widget.  
+        // These sys_ids should be returned as an array from this function and they will be shown in the 
+        // clp widget and the Checklist Pro Summary widget will select data from the
+        // Checklist Item (x_tygr_check_item) table that reference the sys_ids in this array.
+        var arr = [];
+        var gr = new GlideRecord(config.table);
+        // Add custom logic here...
+
+        return arr;
+    },
+
+    clpShowButton: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a button (for customizable processing) should appear at the end of the checklist,
+        // otherwise return false
+        return (gs.getUserID() == rec.assigned_to &amp;&amp; rec.state == 'Requested');
+    },
+
+    clpButtonClicked: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // if the Checklist Pro button is exists and is clicked, this customizable callback will be invoked
+        // The function should return an CLP response object structured as follows:
+        // {
+        //    code:    &lt;integer&gt;,
+        //    message: &lt;string&gt;
+        // }
+        // where Checklist Pro will handle code values as follows:
+        // 0: do nothing
+        // 1: trigger a reload and re-evaluation of the checklist against the record
+        // 2: trigger a reload and re-evaluation of the checklist against the record and...
+        //    popup and alert with the contents of the message attribute in the response displayed in the alert
+        // all other numbers for release v1.4 shall be treated as code value of 0
+        var clpResponse = {
+            code: 0,
+            message: ""
+        };
+
+        // Add custom logic here...
+        var item = new GlideRecord('x_tygr_check_item');
+        // get the New Name value.
+        var user = new GlideRecord('sys_user');
+        var new_person = new x_tygr_check.CLP().getValue(rec.sys_id.toString(), 'New Person');
+        if (new_person.status == 'found' &amp;&amp; user.get(new_person.value + '')) {
+            item.addEncodedQuery('order&lt;1000^template.type=Checkbox^document=' + rec.sys_id + '^ORDEBBYDESCorder');
+            item.setLimit(1);
+            item.query();
+            if (item.next()) {
+                item.order += 1;
+                item.name = user.getDisplayValue();
+                item.complete = true;
+                item.insert();
+
+                clpResponse.code = 2;
+                clpResponse.message = item.name + ' added to the list of employees.';
+            } else {
+                var temp = new GlideRecord('x_tygr_check_template');
+                temp.addEncodedQuery('item=Person^config.name=' + config.name);
+                temp.query();
+                if (temp.next()) {
+                    item = new GlideRecord('x_tygr_check_item');
+                    item.document = rec.sys_id;
+                    item.checklist = config.sys_id;
+                    item.template = temp.sys_id;
+                    item.order = 1;
+                    item.name = user.getDisplayValue();
+                    item.complete = true;
+                    item.insert();
+
+                    clpResponse.code = 2;
+                    clpResponse.message = item.name + ' added to the list of employees.';
+                } else {
+                    clpResonse.code = 2;
+                    clpResponse.message = 'Contact Checklist Pro Admin. Manager Employee Audit template config missing "Person"';
+                }
+            }
+        } else {
+            clpResponse.code = 2;
+            clpResponse.message = 'Select a person to add in the "New Person" item, then click the "Add Person" button';
+        }
+
+        return clpResponse;
+    },
+
+    type: 'CLPManageEmployeeAudit'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-10 00:47:16&lt;/sys_created_on&gt;&lt;sys_id&gt;6279f3ce1b93a51067e82f40604bcb78&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLPManageEmployeeAudit&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_6279f3ce1b93a51067e82f40604bcb78&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-10 02:21:02&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1586875885</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>2ac3f39a1bdfa51067e82f40604bcb7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a31b6a920000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table/>
+<target_name>CLPManageEmployeeAudit</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>ccfe4892a717a510db27fc642728fe80</update_guid>
+<update_guid_history>ccfe4892a717a510db27fc642728fe80:-1586875885,aacdc8526b17a510abd4fd1cfb11b0b7:-1434729028,d568481eced3a5101bdf51ea85e9debd:1531130482,ca87041e21d3a5107dc8189886dc7b3b:2146190434,ddeb7f42c2d3a5100e76eb0ce49c8456:-650330522,0c7bfb427dd3a510923fb3257cc5dede:-1483552272,604b7b4296d3a51020b69281db6b6d40:673036576,9b89b3029ed3a5101659d51371dc6c04:1219602908,6679f3cee593a51077ecd1ef754dcc7a:-772616662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_991c37821bd3a51067e82f40604bcbd1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Manager Employee Audit">2afbbf421bd3a51067e82f40604bcb5a</config><help/><hover/><item>Person</item><name>Person</name><order>10</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:58:57</sys_created_on><sys_id>991c37821bd3a51067e82f40604bcbd1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 00:58:57</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>382954281</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>62c3f39a1bdfa51067e82f40604bcb7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a31e1bd40000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table/>
+<target_name>Person</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>179f44d20f17a510e6c5da396145861c</update_guid>
+<update_guid_history>179f44d20f17a510e6c5da396145861c:382954281</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_extension_instance_6679f3ce1b93a51067e82f40604bcb7b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_instance"><sys_extension_instance action="INSERT_OR_UPDATE"><active>true</active><order>100</order><point>x_tygr_check.ExtensionRunner</point><script_include display_value="ExtensionRunner">6279f3ce1b93a51067e82f40604bcb78</script_include><sys_class_name>sys_extension_instance</sys_class_name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:47:17</sys_created_on><sys_id>6679f3ce1b93a51067e82f40604bcb7b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_tygr_check.ExtensionRunner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_extension_instance_6679f3ce1b93a51067e82f40604bcb7b</sys_update_name><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 00:47:17</sys_updated_on></sys_extension_instance></record_update>]]></payload>
+<payload_hash>265161135</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:54</sys_created_on>
+<sys_id>66c3f39a1bdfa51067e82f40604bcb7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a2c594d50000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:54</sys_updated_on>
+<table/>
+<target_name>x_tygr_check.ExtensionRunner</target_name>
+<type>Extension Instance</type>
+<update_domain>global</update_domain>
+<update_guid>f279f3ce8893a510468ea466dd09e97d</update_guid>
+<update_guid_history>f279f3ce8893a510468ea466dd09e97d:265161135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_7959b3ce1b93a51067e82f40604bcbd3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;name&gt;CLP Manager Employee Audit&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="ty roach"&gt;e86572d5db02320026e7dc50cf961924&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2023-05-27 01:20:33&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 06:00:00&lt;/run_time&gt;&lt;run_type&gt;monthly&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    var checklist = new GlideRecord('x_tygr_check_config');
+    // Find the "Manager Employee Audit" Checklist
+    if (checklist.get('name', 'Manager Employee Audit') &amp;&amp; checklist.isValidRecord()) {
+        var clp_rec,sys_id;
+        var count = 0;
+        // Get all the active groups that have a group manager
+        var gmbr = new GlideRecord('sys_user_grmember');
+        gmbr.addEncodedQuery('group.name=CLP Manager Employee Audit');
+        gmbr.query();
+        while (gmbr.next()) {
+            // For each active user managing other users, create a Checklist Record
+            // Assign it to that manager (for their review)
+            count++;
+            clp_rec = new GlideRecord('x_tygr_check_record');
+            clp_rec.type = 'Approval';
+            clp_rec.approval = true;
+            clp_rec.use_delegate = true;
+            clp_rec.short_description = 'Manager Employee Audit: ' + gmbr.user.getDisplayValue();
+            clp_rec.assigned_to = gmbr.user;
+			clp_rec.parent_table = 'x_tygr_check_record';
+            clp_rec.parent = clp_rec.getUniqueValue();
+            clp_rec.state = 'Requested';
+            clp_rec.checklist = checklist.sys_id;
+            sys_id = clp_rec.insert();
+			clp_rec.initialize();
+			if (clp_rec.get(sys_id)) {
+				createEmployees(clp_rec,checklist);
+			}
+        }
+        gs.info('CLP Manager Employee Audit (Scheduled Job). Created ' + count +
+            ' Checklist Records to process managers of employees');
+
+    } else {
+        gs.warn('CLP Manager Employee Audit (Scheduled Job). Could not find checklist "Manager Employee Audit".');
+    }
+})();
+
+function createEmployees(rec,config) {
+    var temp = new GlideRecord('x_tygr_check_template');
+    temp.addEncodedQuery('item=Person^config.name=' + config.name);
+    temp.query();
+    if (temp.next()) {
+        var clp_util = new x_tygr_check.CLP();
+        var item, order = 1;
+        var user = new GlideRecord('sys_user');
+        user.addEncodedQuery('active=true^manager=' + rec.assigned_to);
+        user.query();
+        while (user.next()) {
+            // for each member in the group, create a checklist item.
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = user.getDisplayValue();
+            item.complete = true;
+            item.order = order++;
+            item.string = item.name + '';
+            item.response = item.name + '';
+            item.insert();
+        }
+
+        // Create the "New Person" item (for New Member selection)
+        temp.initialize();
+        temp.addEncodedQuery('item=New Person^config.name=' + config.name);
+        temp.query();
+        if (temp.next()) {
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = temp.name + '';
+            item.complete = false;
+            item.order = 1000;
+            item.insert();
+        } else {
+            gs.info('CLPManageEmployeeAudit().clpCreate() could not find the "New Person" template record.');
+        }
+    }
+	else {
+		gs.info('CLP.ManageEmployeeAudit: not "Person" template record found');
+	}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-10 00:46:40&lt;/sys_created_on&gt;&lt;sys_id&gt;7959b3ce1b93a51067e82f40604bcbd3&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLP Manager Employee Audit&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_7959b3ce1b93a51067e82f40604bcbd3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-10 01:47:35&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1362349573</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:54</sys_created_on>
+<sys_id>aec3f39a1bdfa51067e82f40604bcb7c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a2fce11a0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:54</sys_updated_on>
+<table/>
+<target_name>CLP Manager Employee Audit</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>ef474cda53d3a510bfe44b18e757a932</update_guid>
+<update_guid_history>ef474cda53d3a510bfe44b18e757a932:1362349573,ed6f330626d3a5109ad6287b3e957b4c:531287692</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_config_03dc7f821bd3a51067e82f40604bcbe9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_tygr_check_config"&gt;&lt;x_tygr_check_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attachment_name/&gt;&lt;attachment_required&gt;false&lt;/attachment_required&gt;&lt;button_condition/&gt;&lt;button_extension&gt;true&lt;/button_extension&gt;&lt;button_info&gt;Make the selected employee's manager be this manager.&lt;/button_info&gt;&lt;button_instructions&gt;&lt;![CDATA[&lt;hr /&gt;]]&gt;&lt;/button_instructions&gt;&lt;button_label&gt;Add Employee&lt;/button_label&gt;&lt;button_style/&gt;&lt;button_wf_event/&gt;&lt;catalog_item/&gt;&lt;close/&gt;&lt;close_check&gt;true&lt;/close_check&gt;&lt;closed_extension&gt;true&lt;/closed_extension&gt;&lt;create table="x_tygr_check_record"&gt;sys_idISEMPTY^EQ&lt;item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/create&gt;&lt;create_extension&gt;false&lt;/create_extension&gt;&lt;custom_css/&gt;&lt;debug&gt;false&lt;/debug&gt;&lt;edit table="x_tygr_check_record"&gt;assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=Requested^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Requested"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/edit&gt;&lt;edit_extension&gt;false&lt;/edit_extension&gt;&lt;enforce&gt;false&lt;/enforce&gt;&lt;enforce_notification&gt;false&lt;/enforce_notification&gt;&lt;extension_script_name&gt;CLPManageEmployeeAudit&lt;/extension_script_name&gt;&lt;hover_fields/&gt;&lt;information&gt;&lt;![CDATA[&lt;p&gt;Review the list of employees assigned to this manager. If any of these employees do not report to this manager, uncheck the checkbox next to their name. If other employees should have this manager, select the &amp;#34;&lt;em&gt;New Person&lt;/em&gt;&amp;#34; and click the &lt;em&gt;&lt;strong&gt;Add Employee &lt;/strong&gt;&lt;/em&gt;button below. Once your review is complete, click the &amp;#34;&lt;em&gt;Approve&lt;/em&gt;&amp;#34; button.&lt;/p&gt;
+&lt;p&gt;&amp;#34;Approving&amp;#34; will update the user record&amp;#39;s manager accordingly (&lt;em&gt;i.e., if selected, this manager becomes the manager of that employee, if unselected, the user will not have a manager&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;#34;Rejecting&amp;#34; will leave the user&amp;#39;s manager field unchanged.&lt;/p&gt;]]&gt;&lt;/information&gt;&lt;name&gt;Manager Employee Audit&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;portal_extension&gt;false&lt;/portal_extension&gt;&lt;portal_summary/&gt;&lt;sc_ref_checklist/&gt;&lt;sc_ref_checklist_query/&gt;&lt;shared_checklist/&gt;&lt;shared_extension&gt;false&lt;/shared_extension&gt;&lt;shared_record/&gt;&lt;shared_table/&gt;&lt;show_button&gt;true&lt;/show_button&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-06-10 01:02:03&lt;/sys_created_on&gt;&lt;sys_id&gt;03dc7f821bd3a51067e82f40604bcbe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-06-10 19:00:29&lt;/sys_updated_on&gt;&lt;table&gt;x_tygr_check_record&lt;/table&gt;&lt;template display_value="Manager Employee Audit"&gt;2afbbf421bd3a51067e82f40604bcb5a&lt;/template&gt;&lt;type&gt;Standard&lt;/type&gt;&lt;/x_tygr_check_config&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1814103609</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>aec3f39a1bdfa51067e82f40604bcb7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a6ae82ec0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>Manager Employee Audit</target_name>
+<type>Checklist Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>25b3739a55dfa510668f1965879d0b42</update_guid>
+<update_guid_history>25b3739a55dfa510668f1965879d0b42:-1814103609,1cf2bf1ac8dfa51057cf8dad9fd1b907:501572399,537fc0d2ae17a5101ea8e9f9e6022d55:-811399857</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_2afbbf421bd3a51067e82f40604bcb5a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>Manager Employee Audit</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 00:58:11</sys_created_on><sys_id>2afbbf421bd3a51067e82f40604bcb5a</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 01:42:08</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>761021625</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>e6c3f39a1bdfa51067e82f40604bcb7e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a31dc4f50000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table/>
+<target_name>Manager Employee Audit</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>398f00d26617a510c866edc4c1d4ba6c</update_guid>
+<update_guid_history>398f00d26617a510c866edc4c1d4ba6c:761021625</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_group_5a7e7b061bd3a51067e82f40604bcb33</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group"><sys_user_group action="INSERT_OR_UPDATE"><active>true</active><cost_center/><default_assignee/><description>List of all users that manage employees</description><email/><exclude_manager>false</exclude_manager><include_members>false</include_members><manager/><name>CLP Manager Employee Audit</name><parent/><roles/><source/><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-06-10 01:09:36</sys_created_on><sys_id>5a7e7b061bd3a51067e82f40604bcb33</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-06-10 01:09:36</sys_updated_on><type/></sys_user_group></record_update>]]></payload>
+<payload_hash>-1125265109</payload_hash>
+<remote_update_set display_value="Manager Employee Audit - update set v1.0">eac3f39a1bdfa51067e82f40604bcb7c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-06-10 19:00:55</sys_created_on>
+<sys_id>eac3f39a1bdfa51067e82f40604bcb7d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>188a2da1a2a0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-06-10 19:00:55</sys_updated_on>
+<table/>
+<target_name>CLP Manager Employee Audit</target_name>
+<type>Group</type>
+<update_domain>global</update_domain>
+<update_guid>039e7b063ed3a510d8c608d4ae285c38</update_guid>
+<update_guid_history>039e7b063ed3a510d8c608d4ae285c38:-1125265109</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

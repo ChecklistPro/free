@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-09-24 00:58:38">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Business Unit Management - Update Set v1.0 - Batch Child</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>95160fff1bd93d10f54b5201604bcbee</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>929475dc1bed7d10f54b5201604bcb0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_aa2947b31b1d3d10f54b5201604bcb9b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Business Unit Management">731907b31b1d3d10f54b5201604bcbc1</config><help/><hover/><item>Department</item><name>Department</name><order>10</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 17:51:33</sys_created_on><sys_id>aa2947b31b1d3d10f54b5201604bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-22 17:51:33</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>2133183733</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>129475dc1bed7d10f54b5201604bcb11</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4ae65fa0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>Department</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f7a3b1dc07ed7d100c036a8e288c7777</update_guid>
+<update_guid_history>f7a3b1dc07ed7d100c036a8e288c7777:2133183733</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_config_08ea87f31b1d3d10f54b5201604bcbe9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_tygr_check_config"&gt;&lt;x_tygr_check_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attachment_name/&gt;&lt;attachment_required&gt;false&lt;/attachment_required&gt;&lt;button_condition/&gt;&lt;button_extension&gt;true&lt;/button_extension&gt;&lt;button_info&gt;Add a Department to this Business Unit&lt;/button_info&gt;&lt;button_instructions&gt;&lt;![CDATA[&lt;hr /&gt;]]&gt;&lt;/button_instructions&gt;&lt;button_label&gt;Add Department&lt;/button_label&gt;&lt;button_style/&gt;&lt;button_wf_event/&gt;&lt;catalog_item/&gt;&lt;close/&gt;&lt;close_check&gt;true&lt;/close_check&gt;&lt;closed_extension&gt;true&lt;/closed_extension&gt;&lt;create table="x_tygr_check_record"&gt;sys_idISEMPTY^EQ&lt;item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/create&gt;&lt;create_extension&gt;false&lt;/create_extension&gt;&lt;custom_css/&gt;&lt;debug&gt;false&lt;/debug&gt;&lt;edit table="x_tygr_check_record"&gt;assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=Requested^EQ&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Requested"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/edit&gt;&lt;edit_extension&gt;false&lt;/edit_extension&gt;&lt;enforce&gt;false&lt;/enforce&gt;&lt;enforce_notification&gt;false&lt;/enforce_notification&gt;&lt;extension_script_name&gt;CLPBusinessUnitManagement&lt;/extension_script_name&gt;&lt;hover_fields/&gt;&lt;information&gt;&lt;![CDATA[&lt;p&gt;Review the list of employees assigned to this department. If any of these employees should not be in this department, uncheck the checkbox next to their name. If other employees should be in this department, select the &amp;#34;&lt;em&gt;New Person&lt;/em&gt;&amp;#34; and click the &lt;em&gt;&lt;strong&gt;Add Employee &lt;/strong&gt;&lt;/em&gt;button below. Once your review is complete, click the &amp;#34;&lt;em&gt;Approve&lt;/em&gt;&amp;#34; button.&lt;/p&gt;
+&lt;p&gt;&amp;#34;Approving&amp;#34; will update the user record&amp;#39;s manager accordingly (&lt;em&gt;i.e., if selected, this manager becomes the manager of that employee, if unselected, the user will not have a manager&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;&amp;#34;Rejecting&amp;#34; will leave the user&amp;#39;s manager field unchanged.&lt;/p&gt;]]&gt;&lt;/information&gt;&lt;name&gt;Business Unit Management&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;portal_extension&gt;false&lt;/portal_extension&gt;&lt;portal_summary/&gt;&lt;sc_ref_checklist/&gt;&lt;sc_ref_checklist_query/&gt;&lt;shared_checklist/&gt;&lt;shared_extension&gt;false&lt;/shared_extension&gt;&lt;shared_record/&gt;&lt;shared_table/&gt;&lt;show_button&gt;true&lt;/show_button&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-22 17:58:36&lt;/sys_created_on&gt;&lt;sys_id&gt;08ea87f31b1d3d10f54b5201604bcbe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-24 00:18:20&lt;/sys_updated_on&gt;&lt;table&gt;x_tygr_check_record&lt;/table&gt;&lt;template display_value="Business Unit Management"&gt;731907b31b1d3d10f54b5201604bcbc1&lt;/template&gt;&lt;type&gt;Standard&lt;/type&gt;&lt;/x_tygr_check_config&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1283130967</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>169475dc1bed7d10f54b5201604bcb10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4ad8f1e0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>Business Unit Management</target_name>
+<type>Checklist Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>6e73bd9c94ed7d1060ef8902c004c894</update_guid>
+<update_guid_history>6e73bd9c94ed7d1060ef8902c004c894:1283130967</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_be3b83f31b1d3d10f54b5201604bcb14</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.CLPBusinessUnitManagement&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Implements extension point x_tygr_check.ExtensionRunner
+Checklist Pro extension points for create/edit/close  condition which customers may invoke their scripts for determining when a Checklist should be created, is editable and/or is associated with a record that is considered closed.&lt;/description&gt;&lt;name&gt;CLPBusinessUnitManagement&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var CLPBusinessUnitManagement = Class.create();
+CLPBusinessUnitManagement.prototype = {
+    initialize: function() {},
+
+    clpCreate: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a checklist should be created for &lt;rec&gt;, otherwise return false
+    },
+
+    clpEdit: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the checklist for &lt;rec&gt; should be editable, otherwise return false
+    },
+
+    clpClosed: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if the &lt;rec&gt; is to be considered "closed", 
+        // otherwise return false indicating &lt;rec&gt; is NOT "closed"
+        var result = false;
+        if (config.active == true &amp;&amp; config.name == "Business Unit Management" &amp;&amp; 
+			rec.state != 'Requested' &amp;&amp;
+            rec.approval == true &amp;&amp; global.JSUtil.notNil(rec.assigned_to) &amp;&amp;
+            (rec.short_description + '').indexOf('Business Unit Management:') == 0) {
+            if (rec.state == 'Rejected') {
+                gs.info('CLPBusiness Unit Management(). state=Rejected: ' + rec.assigned_to.getDisplayValue());
+                return result;
+            }
+
+            result = true;
+            var dept_arr = [];
+            var dept = new GlideRecord('cmn_department');
+            var rc = new x_tygr_check.CLP().getValue(rec.sys_id.toString(), 'Business Unit');
+            if (JSUtil.notNil(rc.value)) {
+                dept.addEncodedQuery('business_unit=' + rc.value);
+            } else {
+                gs.warn('CLPDepartmentMemberAudit() error: could not get Department in the Checklist');
+                dept.addEncodedQuery('sys_idISEMPTY');
+            }
+            dept.query();
+            // get the current departments of this business unit
+            while (dept.next()) {
+                dept_arr.push(dept.sys_id.toString());
+            }
+            var dept_list = dept_arr.join(',');
+			gs.info('CLPBusinessUnitManagement.Close rc.value='+rc.value);
+			gs.info('CLPBusinessUnitManagement.Close (dept_arr): '+dept_arr.length+'\n'+dept_list);
+
+            // get the members of the department according to the checklist
+            var new_arr = [];
+            var item = new GlideRecord('x_tygr_check_item');
+            item.addEncodedQuery('template.type=Checkbox^complete=true^document=' + rec.sys_id);
+            item.query();
+            while (item.next()) {
+                dept.initialize();
+                if (dept.get('name', item.name)) {
+                    new_arr.push(dept.sys_id.toString());
+                }
+            }
+			
+			gs.info('CLPBusinessUnitManagement.Close (new_arr): '+new_arr.length+'\n'+new_arr.join(','));
+
+            // add departments not found in the checklist as members of this business unit
+            for (var i = 0; i &lt; new_arr.length; i++) {
+                // if a user is not already in the list, add them
+                if (dept_list.indexOf(new_arr[i]) == -1) {
+                    dept.initialize();
+                    if (dept.get(new_arr[i])) {
+                        dept.business_unit = rc.value;
+                        dept.update();
+                    }
+                }
+            }
+
+            // remove departments not found in the checklist from the department
+            var new_list = new_arr.join(',');
+            for (i = 0; i &lt; dept_arr.length; i++) {
+                // if a user from the original list is not in the new one, remove it.
+                if (new_arr.length == 0 || new_list.indexOf(dept_arr[i] + '') == -1) {
+                    dept.initialize();
+                    if (dept.get(dept_arr[i])) {
+                        dept.business_unit = 'NULL';
+                        dept.update();
+                    }
+                }
+            }
+        }
+
+        return result;
+    },
+
+    clpShared: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // For clpShared, this "config" parameter will be the checklist where "Type='References Shared Checklist'".
+        // As an example, suppose we've declared a shared checklist for the SC_TASK table and the shared checklist
+        // table references the SC_REQ_ITEM table.  There will be a checklist configuration 
+        // (with template values) for the SC_REQ_ITEM table, but "rec" will be the SC_TASK record and 
+        // "config" will be the checklist configuration for the SC_TASK record, and it will refer to the
+        // SC_REQ_ITEM checklist via "config.shared_checklist"
+        // 
+        // This way the extension point builder knows what we refer to as the "source" record (i.e. the SC_TASK)
+        // record and it's CLP configuration record and can also get to the actual shared checklist configuration
+        // (which will have the template to be used)
+        //
+        // ---Important----
+        // Following the above example, this extension point function should return the sys_id of the 
+        // SC_REQ_ITEM record that is to be related to the specified "rec" SC_TASK record.
+        //
+        // return '' if no shared record can be found.
+
+    },
+
+    clpPortalSummary: function( /* x_tygr_check configuration record */ config) {
+        // return an array of sys_ids of the records from the Checklist Pro Configuration table that are to 
+        // be considered for displaying in the Checklist Pro Summary widget.  
+        // These sys_ids should be returned as an array from this function and they will be shown in the 
+        // clp widget and the Checklist Pro Summary widget will select data from the
+        // Checklist Item (x_tygr_check_item) table that reference the sys_ids in this array.
+        var arr = [];
+        var gr = new GlideRecord(config.table);
+        // Add custom logic here...
+
+        return arr;
+    },
+
+    clpShowButton: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // return true if a button (for customizable processing) should appear at the end of the checklist,
+        // otherwise return false
+        return (gs.getUserID() == rec.assigned_to &amp;&amp; rec.state == 'Requested');
+    },
+
+    clpButtonClicked: function( /* GlideRecord object */ rec, /* x_tygr_check configuration record */ config) {
+        // if the Checklist Pro button is exists and is clicked, this customizable callback will be invoked
+        // The function should return an CLP response object structured as follows:
+        // {
+        //    code:    &lt;integer&gt;,
+        //    message: &lt;string&gt;
+        // }
+        // where Checklist Pro will handle code values as follows:
+        // 0: do nothing
+        // 1: trigger a reload and re-evaluation of the checklist against the record
+        // 2: trigger a reload and re-evaluation of the checklist against the record and...
+        //    popup and alert with the contents of the message attribute in the response displayed in the alert
+        // all other numbers for release v1.4 shall be treated as code value of 0
+        var clpResponse = {
+            code: 0,
+            message: ""
+        };
+
+        // Add custom logic here...
+        var item = new GlideRecord('x_tygr_check_item');
+        // get the New Name value.
+        var dept = new GlideRecord('cmn_department');
+        var new_dept = new x_tygr_check.CLP().getValue(rec.sys_id.toString(), 'New Department');
+        if (new_dept.status == 'found' &amp;&amp; dept.get(new_dept.value + '')) {
+            item.addEncodedQuery('order&lt;1000^template.type=Checkbox^document=' + rec.sys_id + '^ORDEBBYDESCorder');
+            item.setLimit(1);
+            item.query();
+            if (item.next()) {
+                item.order += 1;
+                item.name = dept.getDisplayValue();
+                item.complete = true;
+                item.insert();
+
+                clpResponse.code = 2;
+                clpResponse.message = item.name + ' added to the list of departments.';
+            } else {
+                var temp = new GlideRecord('x_tygr_check_template');
+                temp.addEncodedQuery('item=Department^config.name=' + config.name);
+                temp.query();
+                if (temp.next()) {
+                    item = new GlideRecord('x_tygr_check_item');
+                    item.document = rec.sys_id;
+                    item.checklist = config.sys_id;
+                    item.template = temp.sys_id;
+                    item.order = 1;
+                    item.name = dept.getDisplayValue();
+                    item.complete = true;
+                    item.insert();
+
+                    clpResponse.code = 2;
+                    clpResponse.message = item.name + ' added to the department in this business unit.';
+                } else {
+                    clpResonse.code = 2;
+                    clpResponse.message = 'Contact Checklist Pro Admin. Business Unit Management template config missing "Department"';
+                }
+            }
+        } else {
+            clpResponse.code = 2;
+            clpResponse.message = 'Select a Department to add in the "New Department" item, then click the "Add Department" button';
+        }
+
+        return clpResponse;
+    },
+
+    type: 'CLPBusinessUnitManagement'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-22 18:00:10&lt;/sys_created_on&gt;&lt;sys_id&gt;be3b83f31b1d3d10f54b5201604bcb14&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLPBusinessUnitManagement&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_be3b83f31b1d3d10f54b5201604bcb14&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-24 00:53:12&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1231758995</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>529475dc1bed7d10f54b5201604bcb10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4ad15180000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>CLPBusinessUnitManagement</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>3a53399c89ed7d10a35c8e37275254a0</update_guid>
+<update_guid_history>3a53399c89ed7d10a35c8e37275254a0:-1231758995,07b2795ca3ed7d10117fca647dc311c6:-2027479330,82b1395c92ed7d1047c0fba9ae5b8660:1396873700,9a90f11c96ed7d10de4241640318068c:1651962852,f8cc2918e3ed7d1082d81c91f5ad94d2:-1269274390,a23b6518c2ed7d10b3df48a27d33bf4e:-1240376658,258d8337a01d3d10fd2bbf2a1424feee:-1808687875,805b4ff3991d3d10263979dbbfdb29a0:100018506,be3b43371b1d3d107a1a07be3b7d0164:-772616662</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_a5790bb31b1d3d10f54b5201604bcbdb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Business Unit Management">731907b31b1d3d10f54b5201604bcbc1</config><help/><hover/><item>New Department</item><name>New Department</name><order>1000</order><parent/><reference_field>name</reference_field><reference_fields/><reference_filter/><reference_search>name</reference_search><reference_table>cmn_department</reference_table><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 17:53:26</sys_created_on><sys_id>a5790bb31b1d3d10f54b5201604bcbdb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-22 17:53:26</sys_updated_on><type>Reference</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-986596522</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>5e9475dc1bed7d10f54b5201604bcb10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4aea04d0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>New Department</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>2bb331dc65ed7d10b2a9e20d04577e40</update_guid>
+<update_guid_history>2bb331dc65ed7d10b2a9e20d04577e40:-986596522,02b3f1dc40ed7d10298f6fe28f74bb19:-986596522</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_script_aaf80b731b1d3d10f54b5201604bcb9b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time&gt;1970-01-01 00:00:00&lt;/entered_time&gt;&lt;name&gt;CLP Business Unit Management&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="ty roach"&gt;e86572d5db02320026e7dc50cf961924&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2023-09-22 17:50:19&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 10:00:00&lt;/run_time&gt;&lt;run_type&gt;monthly&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    var checklist = new GlideRecord('x_tygr_check_config');
+    // Find the "Business Unit Management" Checklist
+    if (checklist.get('name', 'Business Unit Management') &amp;&amp; checklist.isValidRecord()) {
+        var clp_rec, sys_id;
+        var count = 0;
+        // Get all the active users that have a group manager
+        var biz_unit = new GlideRecord('business_unit');
+        biz_unit.addEncodedQuery('bu_headISNOTEMPTY');
+        biz_unit.query();
+        while (biz_unit.next()) {
+            // For each business unit, create a Checklist Record
+            // Assign it to that manager (for their review)
+            count++;
+            clp_rec = new GlideRecord('x_tygr_check_record');
+            clp_rec.type = 'Approval';
+            clp_rec.approval = true;
+            clp_rec.use_delegate = true;
+            clp_rec.short_description = 'Business Unit Management: ' +
+                biz_unit.getDisplayValue();
+            clp_rec.assigned_to = biz_unit.bu_head;
+            clp_rec.parent_table = 'x_tygr_check_record';
+            clp_rec.parent = clp_rec.getUniqueValue();
+            clp_rec.state = 'Requested';
+            clp_rec.checklist = checklist.sys_id;
+            sys_id = clp_rec.insert();
+            clp_rec.initialize();
+            if (clp_rec.get(sys_id)) {
+                createDepartments(biz_unit, clp_rec, checklist);
+            }
+        }
+        gs.info('CLP Department Member Audit (Scheduled Job). Created ' + count +
+            ' Checklist Records to process department members');
+
+    } else {
+        gs.warn('CLP Department Member Audit (Scheduled Job). Could not find checklist "Department Member Audit".');
+    }
+})();
+
+function createDepartments(biz_unit, rec, config) {
+    var temp = new GlideRecord('x_tygr_check_template');
+    temp.addEncodedQuery('item=Department^config.name=Business Unit Management');
+    temp.query();
+    if (temp.next()) {
+        var clp_util = new x_tygr_check.CLP();
+        var item, order = 1;
+        var dept = new GlideRecord('cmn_department');
+        dept.addEncodedQuery('business_unit=' + biz_unit.sys_id+'^ORDERBYname');
+        dept.query();
+        while (dept.next()) {
+            // for each member in the group, create a checklist item.
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = dept.getDisplayValue();
+            item.complete = true;
+            item.order = order++;
+            item.string = item.name + '';
+            item.response = item.name + '';
+            item.insert();
+        }
+
+        // Create the "New Department" item (for New Department selection)
+        temp.initialize();
+        temp.addEncodedQuery('item=New Department^config.name=Business Unit Management');
+        temp.query();
+        if (temp.next()) {
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = temp.name + '';
+            item.complete = false;
+            item.order = 1000;
+            item.insert();
+        } else {
+            gs.info('CLPDepartmentMemberAudit().clpCreate() could not find the "New Person" template record.');
+        }
+
+        // create Business Unit
+        temp = new GlideRecord('x_tygr_check_template');
+        temp.addEncodedQuery('item=Business Unit^config.name=Business Unit Management');
+        temp.query();
+        if (temp.next()) {
+            item = new GlideRecord('x_tygr_check_item');
+            item.document = rec.sys_id;
+            item.checklist = config.sys_id;
+            item.template = temp.sys_id;
+            item.name = temp.name + '';
+			item.reference = biz_unit.sys_id;
+			item.response = biz_unit.getDisplayValue();
+			item.string = biz_unit.getDisplayValue();
+            item.complete = true;
+            item.order = 2000;
+            item.insert();
+        } else {
+            gs.info('CLP.DepartmentMemberAudit: not "Department" template record found');
+        }
+    } else {
+        gs.info('CLP.DepartmentMemberAudit: not "Person" template record found');
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-22 17:50:39&lt;/sys_created_on&gt;&lt;sys_id&gt;aaf80b731b1d3d10f54b5201604bcb9b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLP Business Unit Management&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_aaf80b731b1d3d10f54b5201604bcb9b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-22 18:20:13&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1702136842</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>969475dc1bed7d10f54b5201604bcb0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4af1dca0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>CLP Business Unit Management</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>97d335dccded7d10c86f5e53412a52e4</update_guid>
+<update_guid_history>97d335dccded7d10c86f5e53412a52e4:1702136842</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_808a83f31b1d3d10f54b5201604bcb0b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Business Unit Management">731907b31b1d3d10f54b5201604bcbc1</config><help/><hover/><item>Business Unit</item><name>Business Unit</name><order>5</order><parent/><reference_field>name</reference_field><reference_fields/><reference_filter/><reference_search>name</reference_search><reference_table>business_unit</reference_table><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 17:57:15</sys_created_on><sys_id>808a83f31b1d3d10f54b5201604bcb0b</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-24 00:28:01</sys_updated_on><type>Reference</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>13783504</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>9a9475dc1bed7d10f54b5201604bcb10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4ae44df0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>Business Unit</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>fda371dcaaed7d10c98536a3c18a6c96</update_guid>
+<update_guid_history>fda371dcaaed7d10c98536a3c18a6c96:13783504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_extension_instance_3e3b43371b1d3d10f54b5201604bcb65</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_extension_instance"><sys_extension_instance action="INSERT_OR_UPDATE"><active>true</active><order>100</order><point>x_tygr_check.ExtensionRunner</point><script_include display_value="ExtensionRunner">be3b83f31b1d3d10f54b5201604bcb14</script_include><sys_class_name>sys_extension_instance</sys_class_name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 18:00:10</sys_created_on><sys_id>3e3b43371b1d3d10f54b5201604bcb65</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_tygr_check.ExtensionRunner</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_extension_instance_3e3b43371b1d3d10f54b5201604bcb65</sys_update_name><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-22 18:00:10</sys_updated_on></sys_extension_instance></record_update>]]></payload>
+<payload_hash>175326931</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>9e9475dc1bed7d10f54b5201604bcb0f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18abe0c97830000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>x_tygr_check.ExtensionRunner</target_name>
+<type>Extension Instance</type>
+<update_domain>global</update_domain>
+<update_guid>8b3b4337981d3d10e1c31e75ae97e967</update_guid>
+<update_guid_history>8b3b4337981d3d10e1c31e75ae97e967:175326931</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_hide_readonly_6fea4ff31b1d3d10f54b5201604bcb68</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_hide_readonly"><x_tygr_check_hide_readonly action="INSERT_OR_UPDATE"><action>Hide</action><checklist display_value="Business Unit Management">08ea87f31b1d3d10f54b5201604bcbe9</checklist><description/><function/><function_record/><function_table>sys_user_group</function_table><hidereadonly table="x_tygr_check_record">sys_idISNOTEMPTY^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></hidereadonly><hidereadonly_extension>false</hidereadonly_extension><parameter/><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 17:59:26</sys_created_on><sys_id>6fea4ff31b1d3d10f54b5201604bcb68</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-22 18:22:48</sys_updated_on><table>x_tygr_check_record</table><template display_value="Business Unit">808a83f31b1d3d10f54b5201604bcb0b</template></x_tygr_check_hide_readonly></record_update>]]></payload>
+<payload_hash>-2009177179</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>d69475dc1bed7d10f54b5201604bcb10</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4adcbd70000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>808a83f31b1d3d10f54b5201604bcb0b</target_name>
+<type>CLP Hide Readonly</type>
+<update_domain>global</update_domain>
+<update_guid>16837d9c7ded7d1060d35db0a1142586</update_guid>
+<update_guid_history>16837d9c7ded7d1060d35db0a1142586:-2009177179</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_731907b31b1d3d10f54b5201604bcbc1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>Business Unit Management</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-09-22 17:50:59</sys_created_on><sys_id>731907b31b1d3d10f54b5201604bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-09-22 17:50:59</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>1158025148</payload_hash>
+<remote_update_set display_value="Business Unit Management - Update Set v1.0 - Batch Child">929475dc1bed7d10f54b5201604bcb0f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2023-09-24 00:58:38</sys_created_on>
+<sys_id>e29475dc1bed7d10f54b5201604bcb11</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18ac4ae20860000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2023-09-24 00:58:38</sys_updated_on>
+<table/>
+<target_name>Business Unit Management</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>239331dc1bed7d10d833c9d48c145cea</update_guid>
+<update_guid_history>239331dc1bed7d10d833c9d48c145cea:1158025148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

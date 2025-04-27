@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2024-10-12 14:49:08">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>ServiceNow Instance Upgrade  - Update Set v1.1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>2eaece4887ddd6109ef499783cbb35bb</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb3544</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_08b336bc1bc6751067e82f40604bcb44</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 2 - Complete these planning tasks.&lt;/b&gt;&lt;/h2&gt;</name><order>2000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:23:13</sys_created_on><sys_id>08b336bc1bc6751067e82f40604bcb44</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:51:16</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1280560519</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>33259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3060000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 2 - Complete these planning tasks.&lt;/b&gt;&lt;/h2&gt;</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>7c151a009c111a10d7cbdc5cec47f819</update_guid>
+<update_guid_history>7c151a009c111a10d7cbdc5cec47f819:1280560519,3fe5c7b0124a751098bbed1bb8dfbc8f:1280560519</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_467bfa741b0a751067e82f40604bcb6e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Version Entitlement</item><name>If applicable, request a version entitlement.</name><order>3500</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:56:37</sys_created_on><sys_id>467bfa741b0a751067e82f40604bcb6e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:56:37</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1959246424</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>33259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f6dc0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>If applicable, request a version entitlement.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>05151a00cc111a1064c74fecd52c174c</update_guid>
+<update_guid_history>05151a00cc111a1064c74fecd52c174c:-1959246424,40f5c7b0e14a7510459b798be8d315b9:-1959246424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_a74b3ab41b0a751067e82f40604bcbc3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Now Support</item><name>Schedule the upgrade in Now Support.</name><order>3400</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:55:54</sys_created_on><sys_id>a74b3ab41b0a751067e82f40604bcbc3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:55:54</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1997670489</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>33259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f6b70000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Schedule the upgrade in Now Support.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>89151a00eb111a1042576429acee394a</update_guid>
+<update_guid_history>89151a00eb111a1042576429acee394a:-1997670489,c0f5c7b0404a75109cdad68d24bd62b7:-1997670489</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_d58207bc1b0a751067e82f40604bcb82</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 6 - Prepare to upgrade the production instance&lt;/b&gt;&lt;/h2&gt;</name><order>6000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:27:51</sys_created_on><sys_id>d58207bc1b0a751067e82f40604bcb82</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:27:51</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1649956745</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>33259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f8f70000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 6 - Prepare to upgrade the production instance&lt;/b&gt;&lt;/h2&gt;</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>49151a00c7111a10979e4eb8cdd14e88</update_guid>
+<update_guid_history>49151a00c7111a10979e4eb8cdd14e88:1649956745,9cf5c7b0fb4a75104bf1955b687442dd:1649956745</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_fd3242501b06f11067e82f40604bcb46</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Work In-Progress</option><order>20</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:29:31</sys_created_on><sys_id>fd3242501b06f11067e82f40604bcb46</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:29:31</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Work In-Progress</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-680897060</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>37259a0087111a109ef499783cbb3547</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52cd0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>fd3242501b06f11067e82f40604bcb46</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>660c91f8b4da02108ecf2abe1b13d43b</update_guid>
+<update_guid_history>660c91f8b4da02108ecf2abe1b13d43b:-680897060,d26aaa1cb686f110bf09948b0b9126f4:-680897060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_2e913ef81bc6751067e82f40604bcb1c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 1 - Read release notes and plan your upgrade&lt;/b&gt;&lt;/h2&gt;</name><order>1000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:14:43</sys_created_on><sys_id>2e913ef81bc6751067e82f40604bcb1c</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:52:42</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>196955627</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>37259a0087111a109ef499783cbb354a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f28d0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 1 - Read release notes and plan your upgrade&lt;/b&gt;&lt;/h2&gt;</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>74151a00f3111a10b781e7a69b89fb14</update_guid>
+<update_guid_history>74151a00f3111a10b781e7a69b89fb14:196955627,ffe5c7b0ab4a75105d4a0b4183c0728b:196955627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_64a44b301b4a751067e82f40604bcb8c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Prod Version Enablement</item><name>If applicable, request a version entitlement.</name><order>7200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:36:39</sys_created_on><sys_id>64a44b301b4a751067e82f40604bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:36:39</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>56442811</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>37259a0087111a109ef499783cbb354d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fb2b0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>If applicable, request a version entitlement.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>d9151a0032111a10d992bcd00a84309d</update_guid>
+<update_guid_history>d9151a0032111a10d992bcd00a84309d:56442811,14f5c7b01f4a7510eb5024fdc4c0cbf6:56442811</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_92653afc1bc6751067e82f40604bcb08</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Situation Review</item><name>Confirm which of the following situations applies to your ServiceNow non-production instances:</name><order>2750</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:30:08</sys_created_on><sys_id>92653afc1bc6751067e82f40604bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:30:08</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>158335377</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>37259a0087111a109ef499783cbb35b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f4620000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm which of the following situations applies to your ServiceNow non-production instances:</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f4151a003a111a106a493604b77d2235</update_guid>
+<update_guid_history>f4151a003a111a106a493604b77d2235:158335377,3fe5c7b0a14a7510cd7ac87f79649e9e:158335377</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_cb65f2fc1bc6751067e82f40604bcbb8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Situation-Dev</item><name>Development and testing can be frozen until the production upgrade is completed.</name><order>10</order><parent display_value="Confirm which of the following situations applies to your ServiceNow non-production instances:">92653afc1bc6751067e82f40604bcb08</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:30:30</sys_created_on><sys_id>cb65f2fc1bc6751067e82f40604bcbb8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:30:30</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1630883919</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>37259a0087111a109ef499783cbb35b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a512c0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Development and testing can be frozen until the production upgrade is completed.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>3be5c7b0144a75108fd8c504f4be602b</update_guid>
+<update_guid_history>3be5c7b0144a75108fd8c504f4be602b:-1630883919</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_664286501b06f11067e82f40604bcb9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Investigating</option><order>30</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:29:50</sys_created_on><sys_id>664286501b06f11067e82f40604bcb9c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:29:50</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Investigating</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>1179242135</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb3546</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52d40000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>664286501b06f11067e82f40604bcb9c</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>ee0c91f867da021005cd26d67078a33c</update_guid>
+<update_guid_history>ee0c91f867da021005cd26d67078a33c:1179242135,526aaa1c6e86f110345b64a9a9c4a9f6:1179242135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_1f720f7c1b0a751067e82f40604bcbe8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Testing</item><name>Perform functional testing and monitor the performance of your instance.</name><order>5700</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:27:17</sys_created_on><sys_id>1f720f7c1b0a751067e82f40604bcbe8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:27:17</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1313111737</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb3549</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f8d10000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Perform functional testing and monitor the performance of your instance.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>cd151a005f111a101faeb8ea7485e486</update_guid>
+<update_guid_history>cd151a005f111a101faeb8ea7485e486:-1313111737,10f5c7b07b4a7510cc24de6fae497cdc:-1313111737</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_5f4c32f41b0a751067e82f40604bcbd5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Use Test Plan</item><name>Before and after upgrading, conduct smoke tests on your development instance. Use your comprehensive test plan to perform functional testing.</name><order>4300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:00:15</sys_created_on><sys_id>5f4c32f41b0a751067e82f40604bcbd5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:00:15</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1004323364</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb354c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7a10000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Before and after upgrading, conduct smoke tests on your development instance. Use your comprehensive</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>09151a005f111a105db2dcb753343b6d</update_guid>
+<update_guid_history>09151a005f111a105db2dcb753343b6d:1004323364,00f5c7b0d74a75103efd020813359ccd:1004323364</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_745207bc1b0a751067e82f40604bcb7f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Custom Apps</item><name>Install any custom applications and post-upgrade fix scripts that you need.</name><order>5500</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:26:34</sys_created_on><sys_id>745207bc1b0a751067e82f40604bcb7f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:26:34</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>16530331</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb35b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f8840000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Install any custom applications and post-upgrade fix scripts that you need.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c9151a0093111a10ba1f99513d426683</update_guid>
+<update_guid_history>c9151a0093111a10ba1f99513d426683:16530331,04f5c7b07e4a751059019853dc0672d8:16530331</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c66287bc1b0a751067e82f40604bcb58</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Update Sets</item><name>Install update sets.</name><order>5600</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:26:55</sys_created_on><sys_id>c66287bc1b0a751067e82f40604bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:26:55</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1112037031</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb35b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f8a90000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Install update sets.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>45151a008e111a10c092df8fe5d5aa85</update_guid>
+<update_guid_history>45151a008e111a10c092df8fe5d5aa85:1112037031,80f5c7b00c4a7510fb10ff41b0382cda:1112037031</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_fd148ffc1b0a751067e82f40604bcb2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Performance Homepage</item><name>Use the ServiceNow Performance homepage to document the performance of your instance before the upgrade.</name><order>6700</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:34:17</sys_created_on><sys_id>fd148ffc1b0a751067e82f40604bcb2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:34:17</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>58951256</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3b259a0087111a109ef499783cbb35b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fa7f0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Use the ServiceNow Performance homepage to document the performance of your instance before the upgr</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>d1151a0020111a10dad27699d7a15497</update_guid>
+<update_guid_history>d1151a0020111a10dad27699d7a15497:58951256,1cf5c7b09e4a751026c8c2e6746887ee:58951256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_1d7246501b06f11067e82f40604bcbfb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Not Applicable (not needed)</option><order>50</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:30:34</sys_created_on><sys_id>1d7246501b06f11067e82f40604bcbfb</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:31:19</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Not Applicable</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-1599006724</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3f259a0087111a109ef499783cbb3545</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52f20000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>1d7246501b06f11067e82f40604bcbfb</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>e20c91f8aeda0210a5e574fe6a108c40</update_guid>
+<update_guid_history>e20c91f8aeda0210a5e574fe6a108c40:-1599006724,926aea1cc986f110abbda1984a76c11f:-1599006724</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_15053afc1bc6751067e82f40604bcb05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Core Team</item><name>Identify the core team of testers, power users, and key stakeholders required to validate functionality in the ServiceNow instances before and after the upgrade.</name><order>2650</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:28:26</sys_created_on><sys_id>15053afc1bc6751067e82f40604bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:28:26</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1880899000</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3f259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f41a0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Identify the core team of testers, power users, and key stakeholders required to validate functional</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f0151a0084111a10e92bf3a99f5c3532</update_guid>
+<update_guid_history>f0151a0084111a10e92bf3a99f5c3532:1880899000,33e5c7b0894a75102dbdd3894159fc9b:1880899000</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_5346f6301b0a751067e82f40604bcb8e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Test Plan</item><name>Create a comprehensive test plan including test cases for all core instance functionality and integrations.</name><order>2820</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:34:02</sys_created_on><sys_id>5346f6301b0a751067e82f40604bcb8e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:34:02</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>532740234</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3f259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f5160000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Create a comprehensive test plan including test cases for all core instance functionality and integr</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>fc151a00bf111a10749aaa3b372bab3b</update_guid>
+<update_guid_history>fc151a00bf111a10749aaa3b372bab3b:532740234,04f5c7b0454a75100cc96a62f5110ca6:532740234</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_b0e63a701b0a751067e82f40604bcbdf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Plan Integration Instances</item><name>Track instance to be used for integration testing</name><order>30</order><parent display_value="Create a high-level implementation plan">ea86f6301b0a751067e82f40604bcba9</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:36:36</sys_created_on><sys_id>b0e63a701b0a751067e82f40604bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:36:36</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1996593302</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3f259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a51450000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Track instance to be used for integration testing</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>33e5c7b09a4a75102a8b460af3c2fc33</update_guid>
+<update_guid_history>33e5c7b09a4a75102a8b460af3c2fc33:1996593302</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_ea86f6301b0a751067e82f40604bcba9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Implementation Plan</item><name>Create a high-level implementation plan</name><order>2840</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:35:04</sys_created_on><sys_id>ea86f6301b0a751067e82f40604bcba9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:35:04</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1701997808</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>3f259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f59c0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Create a high-level implementation plan</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f0151a00b4111a1090bc70d3070e433f</update_guid>
+<update_guid_history>f0151a00b4111a1090bc70d3070e433f:-1701997808,00f5c7b0254a751023f76a7b840db9aa:-1701997808</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_f57f715c1bc2f11067e82f40604bcb4c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>No</option><order>20</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:17:30</sys_created_on><sys_id>f57f715c1bc2f11067e82f40604bcb4c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:17:30</sys_updated_on><template display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</template><value>No</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-503151945</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>73259a0087111a109ef499783cbb3547</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a532c0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>f57f715c1bc2f11067e82f40604bcb4c</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>2b1c51f8f4da0210239e62a343d32b3a</update_guid>
+<update_guid_history>2b1c51f8f4da0210239e62a343d32b3a:-503151945,566aaa1cdd86f110ff6f0a2e281667f2:-503151945</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_26d436bc1bc6751067e82f40604bcb4e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help>https://docs.servicenow.com/bundle/vancouver-release-notes/page/administer/navigation-and-ui/reference/browser-support.html</help><hover>Review browser support</hover><item>Browser Support</item><name>Review the Browser support to determine browser prerequisites. For example, versions and types supported, and additional requirements for new UI versions. Compare these supported browsers to your corporate standard and identify any gaps.</name><order>2500</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:27:42</sys_created_on><sys_id>26d436bc1bc6751067e82f40604bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:27:42</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1214618118</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>73259a0087111a109ef499783cbb354a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3cf0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Review the Browser support to determine browser prerequisites. For example, versions and types suppo</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>fc151a001f111a10fb2d903f1bf8672e</update_guid>
+<update_guid_history>fc151a001f111a10fb2d903f1bf8672e:1214618118,37e5c7b0614a751069c0c418675bab97:1214618118</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_61220f7c1b0a751067e82f40604bcbe7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Non-prod Upgraded</item><name>Validate that the upgrade to your non-production instance is complete.</name><order>5300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:25:48</sys_created_on><sys_id>61220f7c1b0a751067e82f40604bcbe7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:25:48</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-73642223</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>73259a0087111a109ef499783cbb354d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f8340000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Validate that the upgrade to your non-production instance is complete.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>01151a0016111a104307ca83918acc74</update_guid>
+<update_guid_history>01151a0016111a104307ca83918acc74:-73642223,08f5c7b0b54a7510e71388849e9857d4:-73642223</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_9144c3301b4a751067e82f40604bcb03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 7 - Upgrade the production instance&lt;/b&gt;&lt;/h2&gt;</name><order>7000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:35:31</sys_created_on><sys_id>9144c3301b4a751067e82f40604bcb03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:35:31</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1065970067</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>73259a0087111a109ef499783cbb35b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fada0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 7 - Upgrade the production instance&lt;/b&gt;&lt;/h2&gt;</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>d5151a0084111a10961232d0d93a799a</update_guid>
+<update_guid_history>d5151a0084111a10961232d0d93a799a:-1065970067,18f5c7b0114a7510c535c5c98af3c5f2:-1065970067</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c883c3bc1b0a751067e82f40604bcb50</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Stakeholder Comms</item><name>Send a communication to key stakeholders and end users with details for the production upgrade outage, new features, and so forth.</name><order>6550</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:31:42</sys_created_on><sys_id>c883c3bc1b0a751067e82f40604bcb50</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:31:42</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-23646992</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>73259a0087111a109ef499783cbb35b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fa2b0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Send a communication to key stakeholders and end users with details for the production upgrade outag</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>dd151a0010111a105a23ec8be2b89a93</update_guid>
+<update_guid_history>dd151a0010111a105a23ec8be2b89a93:-23646992,10f5c7b0ef4a7510dfec9fb84b37d4eb:-23646992</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_3e54babc1bc6751067e82f40604bcbbc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>On-premise</option><order>20</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:25:32</sys_created_on><sys_id>3e54babc1bc6751067e82f40604bcbbc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:25:32</sys_updated_on><template display_value="Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, or off-premise.">7414fe7c1bc6751067e82f40604bcba2</template><value/></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-1837083626</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb3546</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52ae0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>3e54babc1bc6751067e82f40604bcbbc</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>9c064bb0814a75100b855ce846f5870c</update_guid>
+<update_guid_history>9c064bb0814a75100b855ce846f5870c:-1837083626</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_1ce10f381b0a751067e82f40604bcb32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Prod Clone</item><name>On your production instance, create a system clone and select your development instance as the Target instance.</name><order>5100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:24:37</sys_created_on><sys_id>1ce10f381b0a751067e82f40604bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:24:37</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-290217736</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb3549</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7e80000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>On your production instance, create a system clone and select your development instance as the Targe</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>0d151a00e3111a1079be6471cb66a470</update_guid>
+<update_guid_history>0d151a00e3111a1079be6471cb66a470:-290217736,0cf5c7b0ba4a751069c601b6fb46f4d0:-290217736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_5eb4fe7c1bc6751067e82f40604bcba4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Feature Enablement</item><name>Confirm plans to enable or disable features introduced in the new product release.</name><order>2400</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:27:08</sys_created_on><sys_id>5eb4fe7c1bc6751067e82f40604bcba4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:27:08</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-164084474</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb354c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3a50000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm plans to enable or disable features introduced in the new product release.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>74151a009e111a10256fcc70d0057e2d</update_guid>
+<update_guid_history>74151a009e111a10256fcc70d0057e2d:-164084474,b7e5c7b0f84a75106a78ac9c02a45395:-164084474</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_7414fe7c1bc6751067e82f40604bcba2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Hosting Model</item><name>Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, or off-premise.</name><order>2200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:24:18</sys_created_on><sys_id>7414fe7c1bc6751067e82f40604bcba2</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:25:02</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>54944977</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb35b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3510000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, or off-premise.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>74151a004a111a109df16eb7d0d4ea1d</update_guid>
+<update_guid_history>74151a004a111a109df16eb7d0d4ea1d:54944977,bbe5c7b0ca4a7510e082ef81f3e3a191:54944977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c41cb2f41b0a751067e82f40604bcbd1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help>https://docs.servicenow.com/csh?topicname=uc-process-skipped-records&amp;version=vancouver&amp;pubname=vancouver-platform-administration</help><hover>Process skipped records details...</hover><item>Skipped Records</item><name>After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.</name><order>4200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:59:12</sys_created_on><sys_id>c41cb2f41b0a751067e82f40604bcbd1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:59:12</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1153007945</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb35b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7510000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>After the upgrade for your development instance is complete, process the skipped records list in the</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>01151a00e6111a10d19ebe91fd0a396a</update_guid>
+<update_guid_history>01151a00e6111a10d19ebe91fd0a396a:-1153007945,80f5c7b0e34a751057d6d0df666557cb:-1153007945</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_fab447301b4a751067e82f40604bcbee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help>https://docs.servicenow.com/bundle/xanadu-platform-administration/page/administer/platform-upgrades/task/monitor-upgrade-apply-upgrade.html</help><hover/><item>Monitor Prod</item><name>Monitor the upgrade to your instance and validate that the upgrade to your production instance is complete.</name><order>7300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:37:05</sys_created_on><sys_id>fab447301b4a751067e82f40604bcbee</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:42:07</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>2146528150</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>77259a0087111a109ef499783cbb35b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fb510000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Monitor the upgrade to your instance and validate that the upgrade to your production instance is co</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>55151a0096111a10c77167f6dd30589f</update_guid>
+<update_guid_history>55151a0096111a10c77167f6dd30589f:2146528150,90f5c7b0c84a7510d64141865b84b3f8:-41109929</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_1ab242501b06f11067e82f40604bcb4d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Cancelled</option><order>60</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:31:57</sys_created_on><sys_id>1ab242501b06f11067e82f40604bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:31:57</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Cancelled</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>1411094778</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7b259a0087111a109ef499783cbb3545</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a53090000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>1ab242501b06f11067e82f40604bcb4d</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>6e0c91f803da02101fa9a1f981f09141</update_guid>
+<update_guid_history>6e0c91f803da02101fa9a1f981f09141:1411094778,126aea1c5986f11045c24f4abeff0621:1411094778</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_108447301b4a751067e82f40604bcbed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Shcedule Prod Upgrade</item><name>Schedule the upgrade in Now Support.</name><order>7100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:36:05</sys_created_on><sys_id>108447301b4a751067e82f40604bcbed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:36:05</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>48591301</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7b259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fb060000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Schedule the upgrade in Now Support.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>51151a00f7111a10c04b5a0f2d5e4a9c</update_guid>
+<update_guid_history>51151a00f7111a10c04b5a0f2d5e4a9c:48591301,94f5c7b02f4a7510559fa175a306fef4:48591301</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_51630b7c1b0a751067e82f40604bcbc9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>CHG Approvals</item><name>Submit and obtain approvals for change records as required by the organization change process.</name><order>6500</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:31:14</sys_created_on><sys_id>51630b7c1b0a751067e82f40604bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:31:14</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-874579141</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7b259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fa000000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Submit and obtain approvals for change records as required by the organization change process.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>55151a001a111a105078008f91fc2492</update_guid>
+<update_guid_history>55151a001a111a105078008f91fc2492:-874579141,90f5c7b06e4a7510770360a3b05914e9:-874579141</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_acf287bc1b0a751067e82f40604bcb59</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Signoff - Stakeholders</item><name>Confirm the core team of key stakeholders required to validate functionality in the ServiceNow instance after the production upgrade.</name><order>6200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:29:17</sys_created_on><sys_id>acf287bc1b0a751067e82f40604bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:29:17</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1848204840</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7b259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f94d0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm the core team of key stakeholders required to validate functionality in the ServiceNow insta</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>4d151a006d111a10eb4a2e3eb1feab8b</update_guid>
+<update_guid_history>4d151a006d111a10eb4a2e3eb1feab8b:-1848204840,98f5c7b0744a7510c9b2f73296d88ae1:-1848204840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_e8f447301b4a751067e82f40604bcbf1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Prod Validation</item><name>Validate and test your instance by conducting user acceptance testing (UAT). Verify with all key stakeholders that the system is performing properly after production upgrade, and key functionality is available.</name><order>7500</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:38:01</sys_created_on><sys_id>e8f447301b4a751067e82f40604bcbf1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:38:01</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>330124445</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7b259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fba80000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Validate and test your instance by conducting user acceptance testing (UAT). Verify with all key sta</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>9d151a0009111a10969b7430385e9ca2</update_guid>
+<update_guid_history>9d151a0009111a10969b7430385e9ca2:330124445,9cf5c7b0b34a7510d54515c8464734fb:330124445</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_0626f6301b0a751067e82f40604bcba8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Restrictions</item><name>Confirm whether there are any restrictions in which ServiceNow instances can be used for integration testing. For example, an interfacing system is only set up to access a specific ServiceNow test instance.</name><order>2800</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:33:24</sys_created_on><sys_id>0626f6301b0a751067e82f40604bcba8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:33:24</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-66285299</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7f259a0087111a109ef499783cbb3547</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f4840000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm whether there are any restrictions in which ServiceNow instances can be used for integration</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>70151a00ec111a10a7ea5bbb0e6b0f37</update_guid>
+<update_guid_history>70151a00ec111a10a7ea5bbb0e6b0f37:-66285299,bbe5c7b0e74a7510b7085fd35fe352a0:-66285299</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_3496b6301b0a751067e82f40604bcb05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Plan Sequence</item><name>Track sequence and timing to upgrade non-production and production instances</name><order>10</order><parent display_value="Create a high-level implementation plan">ea86f6301b0a751067e82f40604bcba9</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:35:45</sys_created_on><sys_id>3496b6301b0a751067e82f40604bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:35:45</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>617523456</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7f259a0087111a109ef499783cbb354a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a51260000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Track sequence and timing to upgrade non-production and production instances</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>7be5c7b0984a7510b8b5fb50efb56829</update_guid>
+<update_guid_history>7be5c7b0984a7510b8b5fb50efb56829:617523456</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_a095bafc1bc6751067e82f40604bcba1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Situation-Continue</item><name>Continued development (and testing) activities need to continue in a non-production instance while upgrade, remediation, and testing activities are performed in parallel on another instance.</name><order>20</order><parent display_value="Confirm which of the following situations applies to your ServiceNow non-production instances:">92653afc1bc6751067e82f40604bcb08</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:30:51</sys_created_on><sys_id>a095bafc1bc6751067e82f40604bcba1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:30:51</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-2022370018</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7f259a0087111a109ef499783cbb35b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a51390000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Continued development (and testing) activities need to continue in a non-production instance while u</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>37e5c7b0134a7510ca2d3a0b9527492f</update_guid>
+<update_guid_history>37e5c7b0134a7510ca2d3a0b9527492f:-2022370018</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_e1817ef81bc6751067e82f40604bcbc9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>ServiceNow Upgrade</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:13:27</sys_created_on><sys_id>e1817ef81bc6751067e82f40604bcbc9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:13:27</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>694372858</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>7f259a0087111a109ef499783cbb35b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a511f0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>ServiceNow Upgrade</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>96d547b0f74a751099cefea5e6dbe5fd</update_guid>
+<update_guid_history>96d547b0f74a751099cefea5e6dbe5fd:694372858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_056fb59c1bc2f11067e82f40604bcb50</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Yes</option><order>10</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:17:21</sys_created_on><sys_id>056fb59c1bc2f11067e82f40604bcb50</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:17:21</sys_updated_on><template display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</template><value>Yes</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>267144574</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb3545</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a53240000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>056fb59c1bc2f11067e82f40604bcb50</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>af1c51f87dda021053fa95e188bfeb38</update_guid>
+<update_guid_history>af1c51f87dda021053fa95e188bfeb38:267144574,1a6aaa1ceb86f110d3d2e8404d22b8ee:267144574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_3e024a101b06f11067e82f40604bcb85</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Complete</option><order>10</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:29:13</sys_created_on><sys_id>3e024a101b06f11067e82f40604bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:29:13</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Complete</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-1629353821</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb3546</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52c60000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>3e024a101b06f11067e82f40604bcb85</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>620c51f823da021089f969f013bd0528</update_guid>
+<update_guid_history>620c51f823da021089f969f013bd0528:-1629353821,d66aaa1c6c86f110a2b7c355cb21bcf0:-1629353821</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_17c6b2701b0a751067e82f40604bcb40</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Plan Instance Clones</item><name>Track instances to be cloned</name><order>20</order><parent display_value="Create a high-level implementation plan">ea86f6301b0a751067e82f40604bcba9</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:36:13</sys_created_on><sys_id>17c6b2701b0a751067e82f40604bcb40</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:36:13</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-379581470</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb3549</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a51320000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Track instances to be cloned</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>b7e5c7b0a54a7510ebdb8855dd16962d</update_guid>
+<update_guid_history>b7e5c7b0a54a7510ebdb8855dd16962d:-379581470</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_5a36b6301b0a751067e82f40604bcb0b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Testing Scope</item><name>Confirm the testing scope and approach.</name><order>2810</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:33:41</sys_created_on><sys_id>5a36b6301b0a751067e82f40604bcb0b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:33:41</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>463226371</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb354c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f4f20000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm the testing scope and approach.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>74151a00c7111a108bf9572f8aa3193a</update_guid>
+<update_guid_history>74151a00c7111a108bf9572f8aa3193a:463226371,b7e5c7b0254a75102a1bc10ffde7a9a4:463226371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_7343077c1b0a751067e82f40604bcba5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Walk-thru</item><name>Schedule a walkthrough and sign-off of the Implementation Plan with key stakeholders and the core team.</name><order>6450</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:30:52</sys_created_on><sys_id>7343077c1b0a751067e82f40604bcba5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:30:52</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1039058827</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb35b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f9d90000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Schedule a walkthrough and sign-off of the Implementation Plan with key stakeholders and the core te</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c9151a0081111a100ff1b114f2bd0e90</update_guid>
+<update_guid_history>c9151a0081111a100ff1b114f2bd0e90:-1039058827,14f5c7b0434a7510e9f3a4d3059045e7:-1039058827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c30203f81b0a751067e82f40604bcbbe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Non-prod Upgrade</item><name>Schedule the non-production upgrade in Now Support and verify your upgrade configurations.</name><order>5200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:25:21</sys_created_on><sys_id>c30203f81b0a751067e82f40604bcbbe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:25:21</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1693151803</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb35b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f80c0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Schedule the non-production upgrade in Now Support and verify your upgrade configurations.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>85151a00a8111a101a8934252180ae72</update_guid>
+<update_guid_history>85151a00a8111a101a8934252180ae72:1693151803,88f5c7b0074a7510595f6046af5860d2:1693151803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_f3cbbab41b0a751067e82f40604bcb77</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Yes / No Choice Option">df3f391c1bc2f11067e82f40604bcba8</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Upgrade Monitor</item><name>Using the Upgrade Monitor, monitor the upgrade to your instance and validate that the upgrade to your development instance is complete.</name><order>4100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:58:06</sys_created_on><sys_id>f3cbbab41b0a751067e82f40604bcb77</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:58:06</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1792075029</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b3259a0087111a109ef499783cbb35b7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7270000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Using the Upgrade Monitor, monitor the upgrade to your instance and validate that the upgrade to you</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>85151a00d0111a10c0abe1e7f2f92d68</update_guid>
+<update_guid_history>85151a00d0111a10c0abe1e7f2f92d68:-1792075029,04f5c7b0a54a7510b47f52b429c23ec9:-1792075029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_0e348fbc1b0a751067e82f40604bcb14</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Clone Perf Test</item><name>On your clone, perform functional testing and monitor the performance of your instance.</name><order>6800</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:34:50</sys_created_on><sys_id>0e348fbc1b0a751067e82f40604bcb14</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:34:50</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-136058536</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b7259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133faac0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>On your clone, perform functional testing and monitor the performance of your instance.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>5d151a0034111a10741877880a3d0998</update_guid>
+<update_guid_history>5d151a0034111a10741877880a3d0998:-136058536,98f5c7b00c4a75105e97a4a23486bbf0:-136058536</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_49fab2b41b0a751067e82f40604bcbeb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Possible Upgrade</item><name>Check the configuration of the Check distribution for possible upgrade scheduled job to view how often and when it runs.</name><order>3100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:54:21</sys_created_on><sys_id>49fab2b41b0a751067e82f40604bcbeb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:54:21</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1698639658</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b7259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f6440000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Check the configuration of the Check distribution for possible upgrade scheduled job to view how oft</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c9151a004f111a109b935234c0104245</update_guid>
+<update_guid_history>c9151a004f111a109b935234c0104245:-1698639658,08f5c7b0514a7510156901b7037a27b1:-1698639658</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_ac8bb2b41b0a751067e82f40604bcb2d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 4 - Upgrade and validate the development instance&lt;/b&gt;&lt;/h2&gt;</name><order>4000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:57:23</sys_created_on><sys_id>ac8bb2b41b0a751067e82f40604bcb2d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:57:23</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>739183318</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b7259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7010000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 4 - Upgrade and validate the development instance&lt;/b&gt;&lt;/</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>8d151a00fd111a10ffe02b518fc8c34d</update_guid>
+<update_guid_history>8d151a00fd111a10ffe02b518fc8c34d:739183318,ccf5c7b0644a75109186dc62f49884ba:739183318</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_df3f391c1bc2f11067e82f40604bcba8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Common Choice Reference">a63f391c1bc2f11067e82f40604bcba7</config><help/><hover/><item>Yes / No Choice Option</item><name>Yes / No Choice Option</name><order>100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:17:06</sys_created_on><sys_id>df3f391c1bc2f11067e82f40604bcba8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:17:06</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>556358582</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>b7259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a53180000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Yes / No Choice Option</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>3d1cddb85bda02104e1aee8f15e68295</update_guid>
+<update_guid_history>3d1cddb85bda02104e1aee8f15e68295:556358582,264a2a1c9086f1107bd14095411f6876:556358582</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_05338bbc1b0a751067e82f40604bcb0f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Prod Upgrade Plan</item><name>Create a Production Upgrade Implementation Plan that includes all upgrade steps, roles and responsibilities, communication plans, key contacts, support coverage for Day 1, and so forth.</name><order>6400</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:30:24</sys_created_on><sys_id>05338bbc1b0a751067e82f40604bcb0f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:30:24</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>900724518</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bb259a0087111a109ef499783cbb3547</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f9b20000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Create a Production Upgrade Implementation Plan that includes all upgrade steps, roles and responsib</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>41151a0052111a10eed4596898fe708f</update_guid>
+<update_guid_history>41151a0052111a10eed4596898fe708f:900724518,94f5c7b07b4a751085b2f91e03cb3fe5:900724518</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_3067f2b01b0a751067e82f40604bcb92</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover>NOTE - It is important to test on a system that reflects the production instance as closely as possible. If your non-production and production instances are the same size, include the production audit log and the attachment data...</hover><item>Impacted Users</item><name>On your production instance, create a system clone and select your development instance as the Target instance. Notify impacted users and internal stakeholders of the scheduled date/time for cloning (from production) and upgrade of the non-production instance.</name><order>2870</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:38:47</sys_created_on><sys_id>3067f2b01b0a751067e82f40604bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:38:47</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-768336743</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bb259a0087111a109ef499783cbb354a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f5f40000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>On your production instance, create a system clone and select your development instance as the Targe</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c5151a006a111a1084d66cdd936e4042</update_guid>
+<update_guid_history>c5151a006a111a1084d66cdd936e4042:-768336743,0cf5c7b09c4a7510747216247c7061ad:-768336743</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_9d134fbc1b0a751067e82f40604bcbb1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Day 1 Coverage</item><name>Confirm coverage for Day 1 support post-upgrade.</name><order>6300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:29:53</sys_created_on><sys_id>9d134fbc1b0a751067e82f40604bcbb1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:29:53</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1176904117</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bb259a0087111a109ef499783cbb35b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f9870000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm coverage for Day 1 support post-upgrade.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c5151a0023111a10ef4cfa462062338d</update_guid>
+<update_guid_history>c5151a0023111a10ef4cfa462062338d:-1176904117,18f5c7b01f4a75102f8f6e942d8084e3:-1176904117</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_config_a63f391c1bc2f11067e82f40604bcba7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template_config"><x_tygr_check_template_config action="INSERT_OR_UPDATE"><active>false</active><name>Common Choice Reference</name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:16:27</sys_created_on><sys_id>a63f391c1bc2f11067e82f40604bcba7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:16:27</sys_updated_on></x_tygr_check_template_config></record_update>]]></payload>
+<payload_hash>-303314978</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bb259a0087111a109ef499783cbb35b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52ba0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Common Choice Reference</target_name>
+<type>Template Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>92fbddb88dda0210936dc536bab58291</update_guid>
+<update_guid_history>92fbddb88dda0210936dc536bab58291:-303314978,511a261c7686f1101c8c496cb1b486e7:-303314978</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_ec44bebc1bc6751067e82f40604bcb18</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>ServiceNow cloud</option><order>10</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:25:21</sys_created_on><sys_id>ec44bebc1bc6751067e82f40604bcb18</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:25:21</sys_updated_on><template display_value="Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, or off-premise.">7414fe7c1bc6751067e82f40604bcba2</template><value/></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>1345583946</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bf259a0087111a109ef499783cbb3546</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52a90000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>ec44bebc1bc6751067e82f40604bcb18</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>9c0687b0024a7510c02044ad19c18107</update_guid>
+<update_guid_history>9c0687b0024a7510c02044ad19c18107:1345583946</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_24f436fc1bc6751067e82f40604bcb32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Project Plan</item><name>Create a project plan for cloning, upgrading, and testing.</name><order>2600</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:28:07</sys_created_on><sys_id>24f436fc1bc6751067e82f40604bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:28:07</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-515474174</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bf259a0087111a109ef499783cbb3549</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3f30000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Create a project plan for cloning, upgrading, and testing.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>78151a0082111a10c70de988d5f15930</update_guid>
+<update_guid_history>78151a0082111a10c70de988d5f15930:-515474174,b3e5c7b09e4a7510dadb6f53e96d4699:-515474174</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_61111a0c87ddd6109ef499783cbb35ca</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>Confirm which ServiceNow instances are in-scope for upgrade.</name><order>2100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2024-10-12 14:31:23</sys_created_on><sys_id>61111a0c87ddd6109ef499783cbb35ca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:31:23</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>723319282</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bf259a0087111a109ef499783cbb354c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3280000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm which ServiceNow instances are in-scope for upgrade.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f4151a00d9111a109ea75bec04f2ee1b</update_guid>
+<update_guid_history>f4151a00d9111a109ea75bec04f2ee1b:723319282</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_7fd2b27c1bc6751067e82f40604bcb00</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover>Release note details</hover><item>Review Release Notes</item><name>Review the release notes for the target ServiceNow feature release and patch, in addition to product and release documentation.</name><order>1010</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:19:03</sys_created_on><sys_id>7fd2b27c1bc6751067e82f40604bcb00</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:24:25</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1404522651</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bf259a0087111a109ef499783cbb35b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f2db0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Review the release notes for the target ServiceNow feature release and patch, in addition to product</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>bc151a0061111a107cd4c5f56b430917</update_guid>
+<update_guid_history>bc151a0061111a107cd4c5f56b430917:1404522651,bfe5c7b02e4a7510276da338979fe28d:-560117617</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c8253afc1bc6751067e82f40604bcb06</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Freeze Windows</item><name>Confirm whether there are any change freeze windows impacting the timing for environment clones or upgrades. For example, end quarter.</name><order>2700</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:28:54</sys_created_on><sys_id>c8253afc1bc6751067e82f40604bcb06</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:28:54</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>981938125</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>bf259a0087111a109ef499783cbb35b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f43d0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm whether there are any change freeze windows impacting the timing for environment clones or u</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>7c151a00b8111a10d2e87be175a70533</update_guid>
+<update_guid_history>7c151a00b8111a10d2e87be175a70533:981938125,bfe5c7b0d04a75101d09b16c049bec9c:981938125</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_095c32f41b0a751067e82f40604bcb2a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 5 - If applicable: Upgrade and validate your other non-production instances, such as your test instance&lt;/b&gt;&lt;/h2&gt;</name><order>5000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:00:53</sys_created_on><sys_id>095c32f41b0a751067e82f40604bcb2a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:00:53</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>325983324</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f3259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7c50000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 5 - If applicable: Upgrade and validate your other non-</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>81151a00b6111a10f104a2af85de5e6f</update_guid>
+<update_guid_history>81151a00b6111a10f104a2af85de5e6f:325983324,8cf5c7b0b34a7510d7195b5296853ece:325983324</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_46d48ffc1b0a751067e82f40604bcb42</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Prod Update Sets</item><name>Apply any update sets and post-upgrade fix scripts that you have.</name><order>7400</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:37:34</sys_created_on><sys_id>46d48ffc1b0a751067e82f40604bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:37:34</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-277405541</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f3259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fb810000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Apply any update sets and post-upgrade fix scripts that you have.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>15151a00d4111a10d72ed1fb7a5defa1</update_guid>
+<update_guid_history>15151a00d4111a10d72ed1fb7a5defa1:-277405541,10f5c7b0834a751089b96df9bd80d9fa:-277405541</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_aad287bc1b0a751067e82f40604bcb6f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Signoff - IT</item><name>Confirm sign-off from IT and Business stakeholders that all non-production instance defects have been fixed and validated in update sets.</name><order>6100</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:28:52</sys_created_on><sys_id>aad287bc1b0a751067e82f40604bcb6f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:28:52</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>868090572</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f3259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f91e0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm sign-off from IT and Business stakeholders that all non-production instance defects have bee</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>c1151a0051111a10b3e7e3d1682dff8a</update_guid>
+<update_guid_history>c1151a0051111a10b3e7e3d1682dff8a:868090572,1cf5c7b07d4a7510aebf3d967ba142df:868090572</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_d8a436fc1bc6751067e82f40604bcb27</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Validations Identified</item><name>Based on the release notes and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.</name><order>2300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:26:44</sys_created_on><sys_id>d8a436fc1bc6751067e82f40604bcb27</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:31:43</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-45160138</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f3259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f3750000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Based on the release notes and other release materials, determine new functionality or notable chang</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>b4151a00f8111a1049fc5cb53c863d2b</update_guid>
+<update_guid_history>b4151a00f8111a1049fc5cb53c863d2b:-45160138,3be5c7b00f4a751095eafff2f1f37e93:-48007981</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_config_7eb547701b4a751067e82f40604bcbb7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_tygr_check_config"&gt;&lt;x_tygr_check_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;attachment_name/&gt;&lt;attachment_required&gt;false&lt;/attachment_required&gt;&lt;button_condition/&gt;&lt;button_extension&gt;false&lt;/button_extension&gt;&lt;button_info/&gt;&lt;button_instructions/&gt;&lt;button_label/&gt;&lt;button_one/&gt;&lt;button_style/&gt;&lt;button_two/&gt;&lt;button_wf_event/&gt;&lt;catalog_item/&gt;&lt;close/&gt;&lt;close_check&gt;false&lt;/close_check&gt;&lt;closed_extension&gt;false&lt;/closed_extension&gt;&lt;copy_journal&gt;false&lt;/copy_journal&gt;&lt;create table="x_tygr_check_record"&gt;short_descriptionSTARTSWITHServiceNow Instance Upgrade -^state=In-Progress^type=Personal^EQ&lt;item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ServiceNow Instance Upgrade -"/&gt;&lt;item display_value="In-Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="In-Progress"/&gt;&lt;item display_value="Personal" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Personal"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/create&gt;&lt;create_extension&gt;false&lt;/create_extension&gt;&lt;custom_css/&gt;&lt;debug&gt;false&lt;/debug&gt;&lt;edit table="x_tygr_check_record"&gt;state=In-Progress^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item display_value="In-Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="In-Progress"/&gt;&lt;item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/edit&gt;&lt;edit_extension&gt;false&lt;/edit_extension&gt;&lt;enforce&gt;false&lt;/enforce&gt;&lt;enforce_notification&gt;false&lt;/enforce_notification&gt;&lt;extension_script_name/&gt;&lt;hover_fields/&gt;&lt;information&gt;&lt;![CDATA[&lt;h2&gt;&lt;strong&gt;ServiceNow Instance Upgrade Checklist&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Plan and track the activities related to your ServiceNow instance upgrade. To help ensure that you complete all the tasks for a successful upgrade, follow the step-by-step instructions in the upgrade planning checklist to track and plan the upgrade.&lt;/p&gt;
+&lt;p&gt;Some optional steps may not be appropriate depending on the number of instances, customizations, and so forth. Mark the ones you do not need in the N/A column.&lt;/p&gt;
+&lt;hr /&gt;]]&gt;&lt;/information&gt;&lt;name&gt;ServiceNow Instance Upgrade Checklist&lt;/name&gt;&lt;order&gt;10&lt;/order&gt;&lt;parent_details_override/&gt;&lt;pdf_name/&gt;&lt;portal_extension&gt;false&lt;/portal_extension&gt;&lt;portal_summary/&gt;&lt;reject_needs_comment&gt;false&lt;/reject_needs_comment&gt;&lt;save_pdf&gt;false&lt;/save_pdf&gt;&lt;sc_ref_checklist/&gt;&lt;sc_ref_checklist_query/&gt;&lt;shared_checklist/&gt;&lt;shared_extension&gt;false&lt;/shared_extension&gt;&lt;shared_record/&gt;&lt;shared_table/&gt;&lt;show_button&gt;false&lt;/show_button&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-20 16:41:27&lt;/sys_created_on&gt;&lt;sys_id&gt;7eb547701b4a751067e82f40604bcbb7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-20 16:41:27&lt;/sys_updated_on&gt;&lt;table&gt;x_tygr_check_record&lt;/table&gt;&lt;template display_value="ServiceNow Upgrade"&gt;e1817ef81bc6751067e82f40604bcbc9&lt;/template&gt;&lt;type&gt;Standard&lt;/type&gt;&lt;/x_tygr_check_config&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1794838114</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f7259a0087111a109ef499783cbb3547</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133a9450000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table>x_tygr_check_record</table>
+<target_name>ServiceNow Instance Upgrade Checklist</target_name>
+<type>Checklist Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>4005960091111a104f8c15a7ec04a44c</update_guid>
+<update_guid_history>4005960091111a104f8c15a7ec04a44c:-1794838114,f7c5c3b0024a75106b9f0a31b8c7584b:-2027438328</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_2fd576301b0a751067e82f40604bcbfe</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>System Availability</item><name>Confirm the availability of other systems required for integration testing (key resources and environments).</name><order>2800</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:32:08</sys_created_on><sys_id>2fd576301b0a751067e82f40604bcbfe</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:32:08</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1005582395</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f7259a0087111a109ef499783cbb354a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f4a80000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm the availability of other systems required for integration testing (key resources and enviro</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>f8151a004a111a10d85e2bd8f562dd38</update_guid>
+<update_guid_history>f8151a004a111a10d85e2bd8f562dd38:1005582395,3be5c7b0ca4a75103e4686bc62a8a7a2:1005582395</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_96a572fc1bc6751067e82f40604bcb12</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Situation-Final</item><name>Once the final upgrade to your production instance is complete, the cloning of your final production instance to your non-production instance will wait until after the production upgrade is complete.</name><order>30</order><parent display_value="Confirm which of the following situations applies to your ServiceNow non-production instances:">92653afc1bc6751067e82f40604bcb08</parent><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:31:15</sys_created_on><sys_id>96a572fc1bc6751067e82f40604bcb12</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:31:15</sys_updated_on><type>Checkbox</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-550804652</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f7259a0087111a109ef499783cbb35b2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a513f0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Once the final upgrade to your production instance is complete, the cloning of your final production</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>b3e5c7b0124a7510c214c76db6ea2f31</update_guid>
+<update_guid_history>b3e5c7b0124a7510c214c76db6ea2f31:-550804652</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_cd9f8e8887ddd6109ef499783cbb3507</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;div&gt;Review the &lt;a href="https://docs.servicenow.com/bundle/xanadu-release-notes/page/release-notes/family-release-notes.html" target="_blank"&gt;&lt;b&gt;Xanadu release notes&lt;/b&gt;&lt;/a&gt; for the target ServiceNow feature release and patch, in addition to product and release documentation.&lt;br/&gt;&#13;
+&lt;br/&gt;&#13;
+For Xanadu -specific upgrade considerations, &lt;a href="https://docs.servicenow.com/bundle/xanadu-release-notes/page/release-notes/upgrades/reference/upgrade-and-migration-tasks.html" target="_blank"&gt;see Pre- and post-upgrade tasks for various products.&lt;/a&gt;&lt;/div&gt;</name><order>1000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2024-10-12 14:27:13</sys_created_on><sys_id>cd9f8e8887ddd6109ef499783cbb3507</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:28:56</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-629142942</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>f7259a0087111a109ef499783cbb35b5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f2b10000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;div&gt;Review the &lt;a href="https://docs.servicenow.com/bundle/xanadu-release-notes/page/release-notes/</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>fc151a0078111a109ea35a7f23603715</update_guid>
+<update_guid_history>fc151a0078111a109ea35a7f23603715:-629142942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_e564f2bc1bc6751067e82f40604bcbf7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Off-premise</option><order>30</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:25:44</sys_created_on><sys_id>e564f2bc1bc6751067e82f40604bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:25:44</sys_updated_on><template display_value="Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, or off-premise.">7414fe7c1bc6751067e82f40604bcba2</template><value/></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-985836907</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>fb259a0087111a109ef499783cbb3546</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52b40000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>e564f2bc1bc6751067e82f40604bcbf7</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>1c064bb07b4a751051c94081f1fe1c0e</update_guid>
+<update_guid_history>1c064bb07b4a751051c94081f1fe1c0e:-985836907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_2017fe301b0a751067e82f40604bcb9d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover>NOTE - There may be a service charge and require professional services engagement.</hover><item>Freeze Impacts</item><name>Confirm whether there are any change freeze windows impacting the timing for environment clones or upgrades. For example, end quarter.</name><order>2850</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:37:24</sys_created_on><sys_id>2017fe301b0a751067e82f40604bcb9d</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:37:42</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>206363826</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>fb259a0087111a109ef499783cbb3549</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f5cf0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm whether there are any change freeze windows impacting the timing for environment clones or u</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>7c151a004d111a1099a3eee753044740</update_guid>
+<update_guid_history>7c151a004d111a1099a3eee753044740:206363826,8cf5c7b0624a75108057bd0a94e94dab:206363826</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_6066fe301b0a751067e82f40604bcb86</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Defect Tracking</item><name>Confirm the method for tracking any defects identified during testing.</name><order>2830</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:34:23</sys_created_on><sys_id>6066fe301b0a751067e82f40604bcb86</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:34:23</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-178555799</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>fb259a0087111a109ef499783cbb354c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f5410000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Confirm the method for tracking any defects identified during testing.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>78151a00f9111a10b7f0317c8d9f983d</update_guid>
+<update_guid_history>78151a00f9111a10b7f0317c8d9f983d:-178555799,80f5c7b0414a7510b29c02b776aad5a8:-178555799</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_752b72b41b0a751067e82f40604bcb98</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Database Trigger</item><name>Verify that the Check database for possible upgrade sys_trigger is set properly for upgrading.</name><order>3300</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:55:14</sys_created_on><sys_id>752b72b41b0a751067e82f40604bcb98</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:55:14</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1021915950</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>fb259a0087111a109ef499783cbb35b1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f6900000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Verify that the Check database for possible upgrade sys_trigger is set properly for upgrading.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>cd151a0019111a10151bf93e5aad9c48</update_guid>
+<update_guid_history>cd151a0019111a10151bf93e5aad9c48:1021915950,04f5c7b0324a75102e3cc2694af673b5:1021915950</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_c7b2928c87ddd6109ef499783cbb352c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>Identify your update sets.</name><order>4250</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2024-10-12 14:38:58</sys_created_on><sys_id>c7b2928c87ddd6109ef499783cbb352c</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2024-10-12 14:39:19</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1892693677</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>fb259a0087111a109ef499783cbb35b4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f7780000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Identify your update sets.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>89151a00ff111a108515c53a2cfb5e6b</update_guid>
+<update_guid_history>89151a00ff111a108515c53a2cfb5e6b:-1892693677</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_choice_3162c6101b06f11067e82f40604bcbc6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_choice"><x_tygr_check_choice action="INSERT_OR_UPDATE"><option>Not Started</option><order>40</order><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:30:19</sys_created_on><sys_id>3162c6101b06f11067e82f40604bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:30:19</sys_updated_on><template display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</template><value>Not Started</value></x_tygr_check_choice></record_update>]]></payload>
+<payload_hash>-2119916008</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb3545</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52e10000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>3162c6101b06f11067e82f40604bcbc6</target_name>
+<type>Choice</type>
+<update_domain>global</update_domain>
+<update_guid>6a0c91f8cada02103f737e69019a323e</update_guid>
+<update_guid_history>6a0c91f8cada02103f737e69019a323e:-2119916008,de6aaa1c0186f110e546ea11215dbdf7:-2119916008</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_15e10e101b06f11067e82f40604bcb36</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="Common Choice Reference">a63f391c1bc2f11067e82f40604bcba7</config><help/><hover/><item>Work Activity</item><name>Work Activity</name><order>20</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-18 22:28:42</sys_created_on><sys_id>15e10e101b06f11067e82f40604bcb36</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-18 22:28:42</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1290228933</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb3548</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>192811a52c00000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Work Activity</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>900cdd78fada02109cc7c1890aed9597</update_guid>
+<update_guid_history>900cdd78fada02109cc7c1890aed9597:1290228933,a64a2a1cb086f110e78903dcf2aebe63:1290228933</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_59f30ffc1b0a751067e82f40604bcbb2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Profile Performance</item><name>Profile the performance of your instance before upgrading.</name><order>6600</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:33:42</sys_created_on><sys_id>59f30ffc1b0a751067e82f40604bcbb2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:33:42</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>816791462</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb354b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133fa530000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Profile the performance of your instance before upgrading.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>59151a00ad111a106904ec9bd0b00f95</update_guid>
+<update_guid_history>59151a00ad111a106904ec9bd0b00f95:816791462,9cf5c7b0d24a7510b2bacca1421c73ec:816791462</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_6a0b32b41b0a751067e82f40604bcbf8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Trigger</item><name>Verify that the Check distribution for possible upgrade sys_trigger is set properly for upgrading.</name><order>3200</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:54:44</sys_created_on><sys_id>6a0b32b41b0a751067e82f40604bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:54:44</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1357475427</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb35b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f66a0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Verify that the Check distribution for possible upgrade sys_trigger is set properly for upgrading.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>45151a0071111a108726a04d79f60c47</update_guid>
+<update_guid_history>45151a0071111a108726a04d79f60c47:-1357475427,84f5c7b0594a75101c8261d18ec1fab3:-1357475427</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_bf9afe741b0a751067e82f40604bcb66</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference/><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item/><name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 3 - Verify your upgrade configurations and schedule the development instance upgrade in Now Support&lt;/b&gt;&lt;/h2&gt;</name><order>3000</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 15:53:25</sys_created_on><sys_id>bf9afe741b0a751067e82f40604bcb66</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 15:53:25</sys_updated_on><type>Label</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>-1576361504</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb35b3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f6190000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>&lt;h2 style="background-color:silver"&gt;&lt;b&gt;Phase 3 - Verify your upgrade configurations and schedule the</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>41151a00bb111a1062d31a077b948244</update_guid>
+<update_guid_history>41151a00bb111a1062d31a077b948244:-1576361504,88f5c7b0ba4a7510a61c46b4dae63aaf:-1576361504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_tygr_check_template_ef3283f81b0a751067e82f40604bcb01</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_tygr_check_template"><x_tygr_check_template action="INSERT_OR_UPDATE"><checklist/><choice_reference display_value="Work Activity">15e10e101b06f11067e82f40604bcb36</choice_reference><config display_value="ServiceNow Upgrade">e1817ef81bc6751067e82f40604bcbc9</config><help/><hover/><item>Install Plugins</item><name>Install any optional plugins that were installed on your development instance.</name><order>5400</order><parent/><reference_field/><reference_fields/><reference_filter/><reference_search/><reference_table/><required>false</required><sys_created_by>ty.roach</sys_created_by><sys_created_on>2023-10-20 16:26:13</sys_created_on><sys_id>ef3283f81b0a751067e82f40604bcb01</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2023-10-20 16:26:13</sys_updated_on><type>Choice</type></x_tygr_check_template></record_update>]]></payload>
+<payload_hash>1962507033</payload_hash>
+<remote_update_set display_value="ServiceNow Instance Upgrade  - Update Set v1.1">ff259a0087111a109ef499783cbb3544</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2024-10-12 14:49:07</sys_created_on>
+<sys_id>ff259a0087111a109ef499783cbb35b6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1928133f85a0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2024-10-12 14:49:07</sys_updated_on>
+<table/>
+<target_name>Install any optional plugins that were installed on your development instance.</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>41151a00de111a100af01d674d734782</update_guid>
+<update_guid_history>41151a00de111a100af01d674d734782:1962507033,84f5c7b02c4a7510ab5fb81b3684bbd6:1962507033</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>

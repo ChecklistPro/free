@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-01-26 00:49:12">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Requires AI in a Box.</description>
+<inserted/>
+<name>CLP AI Assistant - Update Set v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>fbdfa7541bdbd25010216395624bcbf7</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-01-26 00:49:11</sys_created_on>
+<sys_id>317d81861bdbd65068f69601b24bcb1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-01-26 00:49:11</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_825ecad81bd3d25010216395624bcb3c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.AISummarizer&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;AISummarizer&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var AISummarizer = Class.create();
+AISummarizer.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    createAIInference: function() {
+        var topic = this.getParameter('sysparm_topic');
+        try {
+            // made with ChatGPT using the following query
+            // working a prompted and need a few-shot for generating questions based on a topic
+            // Example: working a prompted and need a few shot for generating questions based on a topic. 
+            // the response should be actionable (e.g., check in form, who you are here to see, date and time, etc). 
+            // need this in openai json format (role, content as string value attribute)
+            var ai_message = [{
+                    "role": "system",
+                    "content": "You are an AI that generates specific, actionable questions a user can answer based on a given topic. These questions should be practical, clear, and provide relevant information a person might be asked in real-life situations. The results should be in markdown format."
+                },
+                {
+                    "role": "user",
+                    "content": "Generate a list of questions related to the topic 'Project Deadline'."
+                },
+                {
+                    "role": "assistant",
+                    "content": "When is the project deadline?\nDo you have any tasks that might cause delays?\nAre there any dependencies or resources needed before the project can be completed?\nHow many hours do you expect to spend on the remaining work?\nHave you identified any risks that could prevent meeting the deadline?\nWhat steps are you taking to ensure the project stays on track?"
+                },
+                {
+                    "role": "user",
+                    "content": "Generate a list of questions related to the topic 'Job Interview'."
+                },
+                {
+                    "role": "assistant",
+                    "content": "What is the date and time of your interview?\nHave you reviewed the company’s website and mission statement?\nWhat are your strengths that make you a good fit for this role?\nWhat experience do you have that directly applies to this job?\nAre you prepared to answer questions about your past work and challenges?\nWhat questions do you have for the interviewer?"
+                },
+                {
+                    "role": "user",
+                    "content": "Generate a list of questions related to the topic 'Event Planning'."
+                },
+                {
+                    "role": "assistant",
+                    "content": "What is the date and location of the event?\nHow many guests are you expecting?\nWhat is the event budget, and how is it allocated?\nHave you secured the venue and any necessary permits?\nDo you need any specific supplies or equipment for the event?\nWhat is the timeline for completing all the tasks before the event?"
+                }
+            ];
+            //  "content": "Generate a list of questions related to the topic '" + topic + "'."
+            ai_message.push({
+                "role": "user",
+                "content": "Generate a checklist related to the topic '" + topic + "' with results in markdown format."
+            });
+
+            var inference = new GlideRecord('u_ai_inference');
+            inference.newRecord();
+            inference.setValue('u_prompt', JSON.stringify(ai_message));
+            return inference.insert();
+        } catch (error) {
+            return error;
+        }
+    },
+
+    _setNameAndType: function(temp, response) {
+        var name;
+        try {
+            if (response.indexOf('# ') == 0) {
+                name = response.split('# ');
+                if (name.length &gt; 1) {
+                    temp.name = '&lt;h1&gt;' + name[1] + '&lt;/h1&gt;';
+                    temp.type = 'Label';
+                } else {
+                    temp.name = '&lt;h1&gt;' + name[1] + '&lt;/h1&gt;';
+                    temp.type = 'Label';
+                }
+            } else if (response.indexOf('##') == 0) {
+                name = response.split('# ');
+                if (name.length &gt; 1) {
+                    temp.name = '&lt;h3&gt;' + name[1] + '&lt;/h3&gt;';
+                    temp.type = 'Label';
+                } else {
+                    temp.name = '&lt;h3&gt;' + name[1] + '&lt;/h3&gt;';
+                    temp.type = 'Label';
+                }
+            } else {
+                temp.type = 'Checkbox';
+
+                var new_str = response + '';
+                var regex = new global.RegExp("^-|^\[\s\]|^-\s\[\s\]", 'g');
+                if (global.JSUtil.notNil(regex.exec(new_str.trim()))) {
+                    var start = -1;
+                    for (var i = 0; i &lt; new_str.length &amp;&amp; start == -1; i++) {
+                        if ((new_str.charAt(i) &gt;= 'A' &amp;&amp; new_str.charAt(i) &lt;= 'Z') ||
+                            (new_str.charAt(i) &gt;= 'a' &amp;&amp; new_str.charAt(i) &lt;= 'z') ||
+                            (new_str.charAt(i) &gt;= '0' &amp;&amp; new_str.charAt(i) &lt;= '9')) {
+                            start = i;
+                        }
+                    }
+
+                    var new_str = (start &gt; -1 ? new_str.substring(start) : new_str);
+
+                    temp.name = new_str;
+                } else
+                    temp.name = new_str;
+            }
+        } catch (err) {
+            gs.error('AI Sum: ' + err + '\n\n' + response); 
+        }
+    },
+
+    acceptAll: function() {
+        var container_sys_id = this.getParameter("sysparm_container");
+        var parent_sys_id = this.getParameter("sysparm_parent") || "";
+        var raw_response = this.getParameter("sysparm_response") || "";
+        var ai_response = raw_response.split('\n');
+
+        var temp, name;
+
+        for (var i = 0, order = 10000; i &lt; ai_response.length; i++, order += 5) {
+            temp = new GlideRecord('x_tygr_check_template');
+            temp.config = container_sys_id; // set template configuration
+            temp.parent = parent_sys_id;
+            temp.order = order;
+            this._setNameAndType(temp, ai_response[i]);
+            //temp.name = ai_response[i] + '';
+            //temp.type = 'Checkbox';
+            if (global.JSUtil.notNil(temp.name)) {
+                temp.insert();
+            } else {
+                gs.warn('CLP AI Assist - ' + i + ') skipping empty checklist:\n' +
+                    ai_response[i]);
+            }
+        }
+    },
+
+    type: 'AISummarizer'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-20 19:13:15&lt;/sys_created_on&gt;&lt;sys_id&gt;825ecad81bd3d25010216395624bcb3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;AISummarizer&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_825ecad81bd3d25010216395624bcb3c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-26 00:48:38&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>643223820</payload_hash>
+<remote_update_set display_value="CLP AI Assistant - Update Set v1.0">317d81861bdbd65068f69601b24bcb1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-01-26 00:49:11</sys_created_on>
+<sys_id>357d81861bdbd65068f69601b24bcb1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194a01501fd0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-01-26 00:49:11</sys_updated_on>
+<table/>
+<target_name>AISummarizer</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>e55dcd46f3dbd650d4f0784a6e60c47b</update_guid>
+<update_guid_history>e55dcd46f3dbd650d4f0784a6e60c47b:643223820,b31741ce919bd650b189e61b96343a9e:865096936,cb95410e579bd650b7c2c958acc3edba:-936923219,ff25c10eff9bd65018eb8f1883375895:2033522456,05e44dca469bd6508b3cad51fa805b07:-719246607,aab409cad09bd650bd23aaa3e47844ce:-146319911,cf4441ca3b9bd650fabc40f24c14cf20:2033522456,935c34c2469bd650618bf71d287fc857:202421242,51ab7482b69bd6500b17ecb551c0a7fe:516726279,8ae9b442e19bd650f6f54736e1230215:-951553942,b668b4cedb5bd650bfd6c362c6f1203f:1448864547,a856f44e445bd65000430e673f4bda50:232412999,c0403042095bd650b271aee0b521ceee:1869860473,c5ed57104d9bd25042e2e47646a00217:-815359327,29cd9b10189bd2505c531080e61ae962:2036597154,75571614bb17d2503051522f9dda19fd:-33132488,40f31a502017d250e2df8184f87c4159:1254193125,90a0529c0fd3d250060bef3a13b496ac:1219518961</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_3c3b4a181bd3d25010216395624bcb04</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;clp_ask_ai_action&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Ask AI&lt;/name&gt;&lt;onclick&gt;getAskAI()&lt;/onclick&gt;&lt;order&gt;500&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function getAskAI() {//
+	var gm = new GlideModal('clp_ask_ai', false, 800);
+	gm.setTitle('Checklist AI Assistant'); 
+	gm.setPreference('sysparm_table', g_form.getTableName());
+	gm.setPreference('sysparm_record', g_form.getUniqueValue());
+	gm.render();
+	//window.top.clpmodal = gm;
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-20 18:51:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3c3b4a181bd3d25010216395624bcb04&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ask AI&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_3c3b4a181bd3d25010216395624bcb04&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-21 01:40:42&lt;/sys_updated_on&gt;&lt;table&gt;x_tygr_check_template_config&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1138487508</payload_hash>
+<remote_update_set display_value="CLP AI Assistant - Update Set v1.0">317d81861bdbd65068f69601b24bcb1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-01-26 00:49:11</sys_created_on>
+<sys_id>3d7d81861bdbd65068f69601b24bcb1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194869ff92e0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-01-26 00:49:11</sys_updated_on>
+<table>x_tygr_check_template_config</table>
+<target_name>Ask AI</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>81107b54ecdbd2500c90494ade95055d</update_guid>
+<update_guid_history>81107b54ecdbd2500c90494ade95055d:-1138487508,2b49e79cf59bd2507ce3a17d865156a7:-1138487508,6a876fd8ef9bd250e873d99310d7cfcf:1587925485,57172fd85f9bd2501732576a1f435de2:-1061176819,19a62bd81f9bd250e22f39b661d837ac:1926607277,4989d6d44817d250b104c79d13dd1f14:1051557892,728b8e186bd3d250cfd53b13a2d428c5:-446524154</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_page_4d6c0e581bd3d25010216395624bcb48</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[$j(document).ready(function() {
+    try {
+        iframeHelper.hideCloseButton();
+        iframeHelper.autoResize();
+    } catch (error) {
+        // 
+    }
+    $j("#summary").on("change", function() {
+        $j(this).css('height', 'auto');
+        $j(this).css('height', this.scrollHeight + 'px');
+        try {
+            iframeHelper.setHeight(this.scrollHeight);
+        } catch (error) {
+            //
+        }
+    });
+    $j('#stop').click(function() {
+        stopSummary();
+    });
+    $j('#regenerate').click(function() {
+        generateSummary();
+    });
+    $j('#accept-all').click(function() {
+        acceptAll();
+    });
+    $j('#cancel').click(function() {
+        try {
+            iframeHelper.cancel();
+            GlideModal.get().destroy();
+
+        } catch (error) {
+            //
+        }
+    });
+
+    var url = new URL(window.location.href);
+    var table = url.searchParams.get("table") || document.getElementById('table').value;
+    var record = url.searchParams.get("record") || document.getElementById('record').value;
+    var watchRecord = function(table, filter, callback) {
+        function getFilterString(filter) {
+            return btoa(filter.replace(/\^EQ/g, '').replace(/\^ORDERBY(?:DESC)?[^^]*/g, '').replace(/^GOTO/, '')).replace(/=/g, '-');
+        }
+        if (table === "sys_amb_message" || table.startsWith("sys_rw")) return null;
+        var amb = top.window.top.g_ambClient;
+        var watcherChannel = amb.getChannel('/rw/default/' + table + '/' + getFilterString(filter));
+        watcherChannel.subscribe(callback);
+        amb.connect();
+        return watcherChannel;
+    };
+    var acceptAll = function() {
+        var ga = new GlideAjax('AISummarizer');
+        ga.addParam('sysparm_name', 'acceptAll');
+        ga.addParam('sysparm_container', $j("#record").val());
+        ga.addParam('sysparm_response', $j("#summary").val());
+        ga.addParam('sysparm_parent',  $j("#parent").val());
+        ga.getXMLAnswer(function(response) {
+            try {
+                iframeHelper.cancel();
+				console.log('in try-catch');
+                GlideModal.get().destroy();
+            } catch (error) {
+                console.log('error: '+error);
+            }
+        });
+    };
+    var stopSummary = function() {
+        var ga = new GlideAjax('aiabAjax');
+        ga.addParam('sysparm_name', 'cancelAIInference');
+        ga.addParam('sysparm_sys_id', $j("#inference").val());
+        ga.getXMLAnswer(function(response) {
+
+        });
+    };
+    var generateSummary = function() {
+        //disable regenerate button
+        $j('#regenerate').prop('disabled', true);
+        $j('#stop').prop('disabled', false);
+        var ga = new GlideAjax('AISummarizer');
+        ga.addParam('sysparm_name', 'createAIInference');
+        ga.addParam('sysparm_topic', document.getElementById("topic").value);
+        ga.getXMLAnswer(function(response) {
+            $j("#inference").val(response);
+            var queryToWatch = 'sys_id=' + response;
+            watchRecord('u_ai_inference', queryToWatch, function(message) {
+                var response = message.data.record.u_response;
+                //console.log({record:message.data.record});
+                var responseFound = typeof response !== 'undefined';
+                if (responseFound) {
+                    var responseValue = response.display_value;
+                    $j("#summary").val(responseValue);
+                    try {
+                        iframeHelper.setHeight($j("#p-summary")[0].scrollHeight + 40);
+                    } catch (error) {
+                        //
+                    }
+                }
+                var state = message.data.record.u_state;
+                var stateFound = typeof state !== 'undefined';
+                if (stateFound) {
+                    var stateValue = state.value;
+                    if (stateValue === 'finished' || stateValue === 'cancelled') {
+                        $j('#regenerate').prop('disabled', false);
+                        $j('#stop').prop('disabled', true);
+                    }
+                }
+            });
+        });
+    };
+    //generateSummary(); // starts the summarization
+});]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint/&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false"
+    xmlns:j="jelly:core"
+    xmlns:g="glide"
+    xmlns:j2="null"
+    xmlns:g2="null"&gt;
+    &lt;g:requires name="iframeHelper.jsdbx"&gt;&lt;/g:requires&gt;
+	&lt;j:set var="jvar_table" value="${sysparm_table}"/&gt;
+	&lt;j:set var="jvar_record" value="${sysparm_record}"/&gt;
+    &lt;div class="form-group"&gt;
+	    &lt;label for="topic"&gt;Topic&lt;/label&gt;
+        &lt;input id="topic" class="form-control" /&gt;
+		&lt;label for="parent"&gt;Where do you want these questions (empty if at top level)&lt;/label&gt;
+		&lt;g:ui_reference name="parent" query="config=${sysparm_record}" table="x_tygr_check_template"/&gt;
+        &lt;label for="summary"&gt;Generated Checklist Items&lt;/label&gt;
+        &lt;textarea class="form-control" id="summary" name="summary" style="height: auto;" rows="15"&gt;
+        ${summary}
+        &lt;/textarea&gt;
+        &lt;label for="inference" class="hidden"&gt;Inference&lt;/label&gt;
+        &lt;input id="inference" class="form-control hidden" /&gt;
+		&lt;label for="table" class="hidden"&gt;Table&lt;/label&gt;
+        &lt;input id="table" class="form-control hidden" value="${jvar_table}" /&gt;
+		&lt;label for="record" class="hidden"&gt;Record&lt;/label&gt;
+        &lt;input id="record" class="form-control hidden" value="${jvar_record}" /&gt;
+    &lt;/div&gt;
+    &lt;div style="display:flex; gap: 4px;"&gt;
+        &lt;button id="regenerate" class="btn btn-default"&gt;Make Checklist Items&lt;/button&gt;
+		&lt;button id="accept-all" class="btn btn-primary"&gt;Accept All&lt;/button&gt;
+        &lt;button id="stop" class="btn btn-danger"&gt;
+            &lt;span id="spinner" class="glyphicon glyphicon-refresh glyphicon-spin" style="display:none;"&gt;&lt;/span&gt;
+		Stop
+        &lt;/button&gt;
+        &lt;button id="cancel" class="btn btn-primary"&gt;Close&lt;/button&gt;
+    &lt;/div&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;clp_ask_ai&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-20 18:56:37&lt;/sys_created_on&gt;&lt;sys_id&gt;4d6c0e581bd3d25010216395624bcb48&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;clp_ask_ai&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_4d6c0e581bd3d25010216395624bcb48&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-21 01:45:52&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1316466643</payload_hash>
+<remote_update_set display_value="CLP AI Assistant - Update Set v1.0">317d81861bdbd65068f69601b24bcb1e</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-01-26 00:49:11</sys_created_on>
+<sys_id>fd7d81861bdbd65068f69601b24bcb1e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>194869fbb3c0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-01-26 00:49:11</sys_updated_on>
+<table/>
+<target_name>clp_ask_ai</target_name>
+<type>UI Page</type>
+<update_domain>global</update_domain>
+<update_guid>11003b543edbd250f6d85b1a27e224bb</update_guid>
+<update_guid_history>11003b543edbd250f6d85b1a27e224bb:1316466643,c37a6fdcc79bd250c9397c4e883674db:1316466643,aad96b9cfc9bd250e882bc7caf25e6b6:467563411,21d76b1c279bd2506fb2b7aaa77fb86d:-1473616129,ab77e71c279bd250c02e4488daad92b1:-337466343,26f42b58e79bd250b7e8810122d2bb5d:-1473616129,cde32718db9bd2509a7dcc7640974040:-1204186382,e7c3abd4f79bd25050b3ebda5eb7be84:1794734344,d3e263d4d19bd25077070d71e2a83a62:2091712696,c7526b94c59bd2508e6dfcdf9026450d:365353752,48b852949b17d250818645dca69538d6:-2020851882,0883de101217d250250425c733e3add8:-1119510120,b423d6108a17d2507e320354fa4bc63c:2131465481,5f42dadc91d3d2505637e8b7bd268b31:-1083314366,bd125e9c75d3d250385834c5d3565404:-669190353,d8dc06989fd3d250790a3584e28f6edb:-2042372165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
