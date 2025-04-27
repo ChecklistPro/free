@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-04-26 23:26:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>CLP Show Parent Record - Update Set v1.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>bc3225df4709e250fff731cd416d435f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-04-26 23:26:53</sys_created_on>
+<sys_id>974329134749e250fff731cd416d431b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-04-26 23:26:53</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_f79181ce4749ae10fff731cd416d4306</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller = function($scope) {
+    /* widget controller */
+    var c = this;
+    var clpDiv = document.getElementById('clp-show-parent');
+    if (clpDiv) {
+        console.log('1) in getParentData()');
+        clpDiv.innerHTML = c.data.html;
+    } else {
+        console.log('could not get clpDiv element');
+    }
+
+    $scope.getParentData = function() {
+        var clpDiv = document.getElementById('clp-show-parent');
+        if (clpDiv) {
+            c.server.update().then(function() {
+                console.log('2) in getParentData()');
+                clpDiv.innerHTML = c.data.html;
+            });
+        }
+    };
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;clp-show-parent&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;CLP Show Parent&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    data.canView = true;
+    data.html = '';
+
+    var clpGR = new GlideRecord('x_tygr_check_record');
+    if (!clpGR.get($sp.getParameter('sys_id'))) {
+        data.canView = false;
+        return;
+    }
+
+    if (global.JSUtil.nil(clpGR.parent)) {
+        data.canView = false; 
+        return;
+    }
+
+    data.html = htmlDetail(clpGR.parent_table, clpGR.parent);
+
+})();
+
+function htmlDetail(table_name, record_sysid) {
+    var arr_fields = [];
+    var record = new GlideRecord(table_name);
+    try {
+        // These two lines may help you bypass some restrictions
+        if (record.isValid()) {
+            record.setWorkflow(false);
+            //record.setUseEngines(false);
+
+            if (record.get(record_sysid)) {
+                //var fields = record.getElements(); //or getFields if global scope
+                var fields = record.getFields(); //or getFields if global scope
+
+                var field, fieldLabel, fieldValue, fieldName, i, obj_arr = [];
+                var count = 0;
+
+                // CSS style
+                arr_fields.push('&lt;style&gt;.clpD { border: 1px solid black; ' +
+                    'border-collapse: collapse; ' +
+                    'background-color: #f5f7f7; } ' +
+                    '.clpH { border: 1px solid black; ' +
+                    'border-collapse: collapse; ' +
+                    'background-color: #b6b7b7; }&lt;/style&gt;');
+
+                arr_fields.push(
+                    '&lt;div&gt;&lt;b&gt;' + record.getDisplayValue() + 
+					'&lt;/b&gt; (&lt;i&gt;click to refresh details&lt;/i&gt;)');
+
+                arr_fields.push('&lt;table class="clpD"&gt;&lt;thead class="clpH"&gt;' +
+                    '&lt;th class="clpH"&gt;Field Label&lt;/th&gt;' +
+                    '&lt;th class="clpH"&gt;Field Value&lt;/th&gt;' +
+                    '&lt;th class="clpH"&gt;Field Label&lt;/th&gt;' +
+                    '&lt;th class="clpH"&gt;Field Value&lt;/th&gt;&lt;/thead&gt;&lt;tbody&gt;');
+
+                // Build array of field label/value objects
+                for (i = 0; i &lt; fields.size(); i++) {
+                    field = fields.get(i);
+                    fieldName = field.getName();
+                    fieldValue = record.getDisplayValue(fieldName);
+                    fieldLabel = record.getElement(fieldName).getLabel();
+                    /*
+                        fieldName = fields[i].getName();
+                        fieldLabel = record[fieldName].getLabel();
+                        fieldValue = record.getDisplayValue(fieldName);
+					*/
+
+                    if (global.JSUtil.notNil(fieldValue)) {
+                        obj_arr.push({
+                            label: fieldLabel + '',
+                            value: fieldValue + ''
+                        });
+                    }
+                }
+
+                // sort the array of field label/value objects
+                obj_arr.sort(function(a, b) {
+                    if (a.label.toLowerCase() &lt; b.label.toLowerCase()) return -1;
+                    if (a.label.toLowerCase() &gt; b.label.toLowerCase()) return 1;
+                    return 0;
+                });
+
+                // loop through the array of field label/value objects
+                for (i = 0; i &lt; obj_arr.length; i++) {
+                    if (obj_arr[i].value != '') {
+                        if ((count % 2) == 0) {
+                            arr_fields.push('&lt;tr&gt;');
+                        }
+
+                        arr_fields.push('&lt;td class="clpD"&gt;&lt;b&gt; ' + obj_arr[i].label +
+                            '&lt;/b&gt; &lt;/td&gt;&lt;td class="clpD"&gt; ' + obj_arr[i].value + ' &lt;/td&gt;');
+
+                        if ((count % 2) == 1) {
+                            arr_fields.push('&lt;/tr&gt;');
+                        }
+
+                        count++;
+                    }
+                }
+                if ((count % 2) == 1) {
+                    arr_fields.push('&lt;td/&gt;&lt;td/&gt;&lt;/tr&gt;');
+                }
+
+                arr_fields.push('&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;');
+            }
+        }
+    } catch (err) {
+        gs.info('CLP().htmlDetail: error: ' + err);
+    }
+
+    return arr_fields.join('\n');
+}]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-22 23:50:00&lt;/sys_created_on&gt;&lt;sys_id&gt;f79181ce4749ae10fff731cd416d4306&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;CLP Show Parent&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_f79181ce4749ae10fff731cd416d4306&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-26 23:23:10&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div id="clp-show-parent" ng-click="getParentData()"&gt;
+	&lt;!-- your widget template --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f79181ce4749ae10fff731cd416d4306&lt;/id&gt;&lt;sys_created_by&gt;ty.roach&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-22 23:49:59&lt;/sys_created_on&gt;&lt;sys_id&gt;f23281ce4749ae10fff731cd416d4317&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;ty.roach&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-22 23:49:59&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>799333805</payload_hash>
+<remote_update_set display_value="CLP Show Parent Record - Update Set v1.0">974329134749e250fff731cd416d431b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-04-26 23:26:53</sys_created_on>
+<sys_id>9b4329134749e250fff731cd416d431b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196746976ec0000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-04-26 23:26:53</sys_updated_on>
+<table/>
+<target_name>CLP Show Parent</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>f872a5df4409e250a82dc98fe8126148</update_guid>
+<update_guid_history>f872a5df4409e250a82dc98fe8126148:799333805,13c341c3544de2504bd52a6254a142c0:-84522905,5f130183da4de25091178b830730c05a:-2020615107,4392c9437d4de250ac976b39baa05582:1455392327,5162c943dd4de250250fae4545371e0e:-894576781,c0d10d03a14de250163594991970edd6:-41930067,cd910d037b4de250050d7c52f03520cb:-1522167393,22718903b64de250de64eac7fb553fc4:930124047,02f08103074de250a961e243cfe4f12c:373592892,d58081cfaf0de25030b30561543d6097:1073043568,2ecfb08f0b0de250b17af5795642c5b7:354513261,451fb08f630de250d712a8c87d806188:888136802,f5cef84f640de25066bb97b56363968e:-1282593199,a6aeb84f360de25073d981649f0f244a:670224241,659eb84ff20de25035a5dc944d8e1f09:2093255345,4d1e700f680de2501ea632eb0572f30b:-392610051,dfab348b1e0de25038a6af8ee52eb974:-1772925100,4c66eda2f48d6250090499da295de28b:704405875,99d565a2158d6250e2ffcd3e5288f5af:1811644038,9d25e5627c8d625010ebc5c809fa2791:774160125,d6d3adeed14d6250f53f3410cf878cb8:-800487989,7c82a96e6b4d6250b2e4c4a73e46040f:1128054284,26d1bd56180dee109248f31d9de47397:-177325415,18d3455a2649ee107a291e7ed7cd2b16:1715681866,4433cdcebf49ae101d1df2be6a8a966b:-169979192,b632c9ce7c49ae10b38c8682a3aef8c0:-241646500</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_template_1ba2addf4709e250fff731cd416d4370</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>CLP Show Parent Record</name><next/><next_child/><roles/><short_description>CLP Show Parent Record</short_description><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>ty.roach</sys_created_by><sys_created_on>2025-04-26 23:25:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ba2addf4709e250fff731cd416d4370</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CLP Show Parent Record</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_template_1ba2addf4709e250fff731cd416d4370</sys_update_name><sys_updated_by>ty.roach</sys_updated_by><sys_updated_on>2025-04-26 23:25:28</sys_updated_on><table>x_tygr_check_config</table><template>advanced=true^parent_details_override={&#13;
+   "id":"clp-show-parent",&#13;
+   "title": "Show Parent Record",&#13;
+   "options":{&#13;
+      "table": "x_tygr_check_record",&#13;
+      "sys_id":"$clp-parent"&#13;
+   }&#13;
+}^EQ</template><user display_value="ty roach">e86572d5db02320026e7dc50cf961924</user><view/></sys_template></record_update>]]></payload>
+<payload_hash>-727217910</payload_hash>
+<remote_update_set display_value="CLP Show Parent Record - Update Set v1.0">974329134749e250fff731cd416d431b</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>ty.roach</sys_created_by>
+<sys_created_on>2025-04-26 23:26:53</sys_created_on>
+<sys_id>d34329134749e250fff731cd416d431c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>196746b91480000001</sys_recorded_at>
+<sys_updated_by>ty.roach</sys_updated_by>
+<sys_updated_on>2025-04-26 23:26:53</sys_updated_on>
+<table>x_tygr_check_config</table>
+<target_name>CLP Show Parent Record</target_name>
+<type>Template</type>
+<update_domain>global</update_domain>
+<update_guid>eaf2addf8409e2508fbf4b5536c3d487</update_guid>
+<update_guid_history>eaf2addf8409e2508fbf4b5536c3d487:-727217910</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
